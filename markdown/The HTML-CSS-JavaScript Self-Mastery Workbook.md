@@ -2328,12 +2328,8 @@ You've completed the **HTML-CSS-JavaScript Self-Mastery Workbook**!
 
 After this workbook, you can:
 
-- ✅ Build complete, interactive websites from scratch
+- ✅ Understand HTML, CSS, and JavaScript
 - ✅ Debug HTML, CSS, and JavaScript issues
-- ✅ Understand how the web works
-- ✅ Read and understand others' code
-- ✅ Learn frameworks (React, Vue, etc.)
-- ✅ Build real projects for real users
 
 ### What's Next?
 
