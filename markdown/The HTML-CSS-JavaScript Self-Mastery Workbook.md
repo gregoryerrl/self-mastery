@@ -1342,7 +1342,7 @@ After building:
 - What does the semicolon (`;`) do? What happens if you forget it?
 - How do you write comments in JavaScript?
 - What is an error? What does "SyntaxError" mean?
-- You write `consol.log("Hello")` and get an error. How do you read error messages?
+- You write `console.log("Hello")` and get an error. How do you read error messages?
 
 ### Making Things Happen
 

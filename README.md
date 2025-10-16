@@ -30,16 +30,19 @@ By the time you complete a workbook, you won't just "know" the topic - you'll un
 Follow this path to build production-ready full-stack applications with React and Next.js:
 
 1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
+
    - Master the foundational technologies of the web
    - Build semantic, accessible, and responsive interfaces
    - Develop strong JavaScript fundamentals
 
 2. **[Development Environment & Servers Mastery Workbook](./markdown/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)**
+
    - Learn to work efficiently with the terminal and development tools
    - Understand version control with Git
    - Master Node.js, servers, and deployment
 
 3. **[Advanced JavaScript Self-Mastery Workbook](./markdown/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
+
    - Deep dive into advanced functions, closures, and `this` keyword
    - Prototypes, classes, and object-oriented patterns
    - Functional programming and advanced async patterns
@@ -47,6 +50,7 @@ Follow this path to build production-ready full-stack applications with React an
    - Design patterns and scalable application architecture
 
 4. **[JavaScript Framework Foundations Self-Mastery Workbook](./markdown/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)**
+
    - Universal patterns that ALL frameworks use
    - Component architecture, routing, and state management
    - Reactivity systems (hooks, signals, Proxy-based)
@@ -55,6 +59,7 @@ Follow this path to build production-ready full-stack applications with React an
    - Framework-independent knowledge for mastering any framework
 
 5. **[ReactJS Self-Mastery Workbook](./markdown/ReactJS%20Self-Mastery%20Workbook.md)**
+
    - React internals, Virtual DOM, and reconciliation
    - React Fiber architecture and concurrent rendering
    - Advanced hooks and custom hook patterns
@@ -75,16 +80,19 @@ Follow this path to build production-ready full-stack applications with React an
 Follow this path to build production-ready full-stack applications with Svelte and SvelteKit:
 
 1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
+
    - Master the foundational technologies of the web
    - Build semantic, accessible, and responsive interfaces
    - Develop strong JavaScript fundamentals
 
 2. **[Development Environment & Servers Mastery Workbook](./markdown/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)**
+
    - Learn to work efficiently with the terminal and development tools
    - Understand version control with Git
    - Master Node.js, servers, and deployment
 
 3. **[Advanced JavaScript Self-Mastery Workbook](./markdown/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
+
    - Deep dive into advanced functions, closures, and `this` keyword
    - Prototypes, classes, and object-oriented patterns
    - Functional programming and advanced async patterns
@@ -92,6 +100,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
    - Design patterns and scalable application architecture
 
 4. **[JavaScript Framework Foundations Self-Mastery Workbook](./markdown/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)**
+
    - Universal patterns that ALL frameworks use
    - Component architecture, routing, and state management
    - Reactivity systems (hooks, signals, Proxy-based)
@@ -100,6 +109,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
    - Framework-independent knowledge for mastering any framework
 
 5. **[Svelte Self-Mastery Workbook](./markdown/Svelte%20Self-Mastery%20Workbook.md)**
+
    - Svelte compiler architecture and reactivity system
    - Component patterns, slots, and context API
    - Actions, transitions, and animations
@@ -122,11 +132,13 @@ Follow this path to build production-ready full-stack applications with Svelte a
 ### Web Development
 
 - [The HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)
+
   - HTML: Structure, semantics, accessibility
   - CSS: Styling, layout, responsive design, architecture
   - JavaScript: Fundamentals, DOM, async programming, advanced concepts
 
 - [The Development Environment & Servers Mastery Workbook](./markdown/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)
+
   - Terminal mastery and professional workspace setup
   - Version control with Git (Windows & macOS)
   - Node.js, npm, and dependency management
@@ -135,6 +147,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Persistence, monitoring, and maintenance
 
 - [Advanced JavaScript Self-Mastery Workbook](./markdown/Advanced%20Javascript%20Self-Mastery%20Workbook.md)
+
   - Advanced functions, closures, and higher-order functions
   - The `this` keyword, execution context, and binding
   - Prototypes, inheritance, and ES6 classes
@@ -147,6 +160,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Design patterns and building scalable applications
 
 - [JavaScript Framework Foundations Self-Mastery Workbook](./markdown/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)
+
   - Framework paradigms and evaluation criteria
   - Component architecture, lifecycle, and communication patterns
   - Client-side routing and navigation
@@ -162,6 +176,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Framework-independent patterns for mastering React, Vue, Svelte, or any framework
 
 - [ReactJS Self-Mastery Workbook](./markdown/ReactJS%20Self-Mastery%20Workbook.md)
+
   - React core concepts and JSX deep dive
   - Virtual DOM, reconciliation, and React Fiber architecture
   - Concurrent React and scheduling
@@ -175,6 +190,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Building React from scratch
 
 - [Svelte Self-Mastery Workbook](./markdown/Svelte%20Self-Mastery%20Workbook.md)
+
   - Svelte compiler architecture and reactivity system internals
   - Component architecture and reactive declarations
   - Slots, context API, and actions
@@ -188,6 +204,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Building Svelte from scratch
 
 - [Next.js Self-Mastery Workbook](./markdown/NextJS%20Self-Mastery%20Workbook.md)
+
   - Next.js architecture and App Router deep dive
   - Server Components and Client Components optimization
   - Rendering strategies (SSR, SSG, ISR, PPR)
@@ -215,7 +232,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
 
 ### Machine Learning & Data Science
 
-- [The Machine Learning Implementation Mastery Workbook](./markdown/Machine%20Learning%20Self-Mastery%20Workbook.md)
+- [The Machine Learning Implementation Mastery Workbook](./markdown/Machine%20Learning%20Fundamentals%20Self-Mastery%20Workbook.md)
   - Machine Learning fundamentals and workflow
   - Python for ML (NumPy, pandas, Matplotlib)
   - Data processing and feature engineering
@@ -236,6 +253,7 @@ Before looking things up, try to explain the answer in your own words. If you ca
 ### 2. Leverage All Resources
 
 Use every tool at your disposal:
+
 - Google, Stack Overflow, Reddit
 - ChatGPT and AI assistants
 - Official documentation (MDN, Node.js docs, TensorFlow docs)
@@ -249,6 +267,7 @@ Use every tool at your disposal:
 ### 4. Reflect and Explain
 
 After finding an answer:
+
 - Try teaching it to someone else
 - Write notes in your own words
 - Create your own examples
@@ -296,6 +315,7 @@ learning-journey/
 ### Structure
 
 Each workbook contains:
+
 - **Prerequisites** - What you should know before starting
 - **Guided questions** - Core concepts framed as self-discovery questions
 - **Practical exercises** - Real-world projects to build and explore
@@ -311,6 +331,7 @@ Each workbook contains:
 ### What Makes These Different?
 
 Traditional tutorials tell you what to do step-by-step. These workbooks **ask you questions** and let you discover the answers through research and practice. This approach:
+
 - Develops problem-solving skills
 - Builds confidence in your ability to learn independently
 - Creates deeper, longer-lasting understanding
@@ -321,6 +342,7 @@ Traditional tutorials tell you what to do step-by-step. These workbooks **ask yo
 ## Contributing & Customization
 
 Feel free to:
+
 - Fork this repository and customize the workbooks for your learning style
 - Add your own questions and exercises
 - Create new workbooks for topics you're exploring
