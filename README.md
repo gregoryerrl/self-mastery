@@ -23,11 +23,11 @@ By the time you complete a workbook, you won't just "know" the topic - you'll un
 
 ---
 
-## Suggested Learning Flow
+## Suggested Learning Flows
 
-### Flow 1: Full-Stack Web Development Path
+### Flow 1: Next.js Full-Stack Web Development Path
 
-Follow this path to build a comprehensive understanding of modern web development from fundamentals to deployment:
+Follow this path to build production-ready full-stack applications with React and Next.js:
 
 1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
    - Master the foundational technologies of the web
@@ -53,6 +53,67 @@ Follow this path to build a comprehensive understanding of modern web developmen
    - Server-side rendering, hydration, and performance
    - Build tools, testing, and production deployment
    - Framework-independent knowledge for mastering any framework
+
+5. **[ReactJS Self-Mastery Workbook](./markdown/ReactJS%20Self-Mastery%20Workbook.md)**
+   - React internals, Virtual DOM, and reconciliation
+   - React Fiber architecture and concurrent rendering
+   - Advanced hooks and custom hook patterns
+   - Context API, state management, and performance optimization
+   - Testing, debugging, and production patterns
+   - Building React from scratch
+
+6. **[Next.js Self-Mastery Workbook](./markdown/NextJS%20Self-Mastery%20Workbook.md)**
+   - Next.js App Router and Server Components
+   - Data fetching, caching, and revalidation strategies
+   - Server Actions and full-stack features
+   - Performance optimization and SEO mastery
+   - Authentication, database integration, and deployment
+   - Building enterprise-grade production applications
+
+### Flow 2: SvelteKit Full-Stack Web Development Path
+
+Follow this path to build production-ready full-stack applications with Svelte and SvelteKit:
+
+1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
+   - Master the foundational technologies of the web
+   - Build semantic, accessible, and responsive interfaces
+   - Develop strong JavaScript fundamentals
+
+2. **[Development Environment & Servers Mastery Workbook](./markdown/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)**
+   - Learn to work efficiently with the terminal and development tools
+   - Understand version control with Git
+   - Master Node.js, servers, and deployment
+
+3. **[Advanced JavaScript Self-Mastery Workbook](./markdown/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
+   - Deep dive into advanced functions, closures, and `this` keyword
+   - Prototypes, classes, and object-oriented patterns
+   - Functional programming and advanced async patterns
+   - Event loop, modules, and metaprogramming
+   - Design patterns and scalable application architecture
+
+4. **[JavaScript Framework Foundations Self-Mastery Workbook](./markdown/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)**
+   - Universal patterns that ALL frameworks use
+   - Component architecture, routing, and state management
+   - Reactivity systems (hooks, signals, Proxy-based)
+   - Server-side rendering, hydration, and performance
+   - Build tools, testing, and production deployment
+   - Framework-independent knowledge for mastering any framework
+
+5. **[Svelte Self-Mastery Workbook](./markdown/Svelte%20Self-Mastery%20Workbook.md)**
+   - Svelte compiler architecture and reactivity system
+   - Component patterns, slots, and context API
+   - Actions, transitions, and animations
+   - Store system and state management
+   - Performance optimization and compilation analysis
+   - Building Svelte from scratch
+
+6. **[SvelteKit Self-Mastery Workbook](./markdown/Sveltekit%20Self-Mastery%20Workbook.md)**
+   - SvelteKit architecture and file-based routing
+   - Load functions, data flow, and form actions
+   - Server-side rendering and progressive enhancement
+   - Authentication, database integration, and real-time features
+   - Performance optimization, SEO, and deployment strategies
+   - Building enterprise-grade production applications
 
 ---
 
@@ -99,6 +160,58 @@ Follow this path to build a comprehensive understanding of modern web developmen
   - Build tools, module bundling, and optimization
   - Security (XSS prevention), testing, and accessibility
   - Framework-independent patterns for mastering React, Vue, Svelte, or any framework
+
+- [ReactJS Self-Mastery Workbook](./markdown/ReactJS%20Self-Mastery%20Workbook.md)
+  - React core concepts and JSX deep dive
+  - Virtual DOM, reconciliation, and React Fiber architecture
+  - Concurrent React and scheduling
+  - Hooks internals and advanced hook patterns
+  - Context API and state management patterns
+  - Performance optimization and profiling
+  - Advanced component patterns (HOCs, Render Props, Compound Components)
+  - Error boundaries, Suspense, and portals
+  - Testing React applications
+  - Custom renderers and React everywhere
+  - Building React from scratch
+
+- [Svelte Self-Mastery Workbook](./markdown/Svelte%20Self-Mastery%20Workbook.md)
+  - Svelte compiler architecture and reactivity system internals
+  - Component architecture and reactive declarations
+  - Slots, context API, and actions
+  - Transitions and animations
+  - Store system and custom stores
+  - Performance optimization and memory management
+  - Special elements and bindings
+  - Testing Svelte applications
+  - Using Svelte in other frameworks and as Web Components
+  - Custom preprocessors and compiler modifications
+  - Building Svelte from scratch
+
+- [Next.js Self-Mastery Workbook](./markdown/NextJS%20Self-Mastery%20Workbook.md)
+  - Next.js architecture and App Router deep dive
+  - Server Components and Client Components optimization
+  - Rendering strategies (SSR, SSG, ISR, PPR)
+  - Streaming and Suspense patterns
+  - Data fetching, Server Actions, and mutations
+  - Caching architecture and revalidation strategies
+  - Route Handlers, middleware, and API design
+  - Database integration and authentication
+  - Performance optimization (images, fonts, bundles)
+  - SEO, metadata, and deployment strategies
+  - Testing, monitoring, and production best practices
+
+- [SvelteKit Self-Mastery Workbook](./markdown/Sveltekit%20Self-Mastery%20Workbook.md)
+  - SvelteKit architecture and file-based routing
+  - Load functions and data flow patterns
+  - Form actions and progressive enhancement
+  - Hooks system (handle, handleFetch, handleError)
+  - API routes and server-side rendering
+  - Prerendering and static generation
+  - Authentication, authorization, and security
+  - Database integration and real-time features
+  - Performance optimization and caching strategies
+  - SEO, metadata, and deployment with adapters
+  - Testing, monitoring, and multi-tenant architecture
 
 ### Machine Learning & Data Science
 
