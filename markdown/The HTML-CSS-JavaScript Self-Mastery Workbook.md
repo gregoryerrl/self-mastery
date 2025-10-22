@@ -33,7 +33,7 @@
 
 ## 💻 Prerequisites
 
-Before starting this workbook, you only need some **basic computer knowledge** and a few essential tools. Don't worry – nothing advanced is required.
+Before starting this workbook, you only need some **basic computer knowledge** and a few essential tools. Don't worry — nothing advanced is required.
 
 ### ✅ What You Should Already Know
 
@@ -60,15 +60,15 @@ Before starting this workbook, you only need some **basic computer knowledge** a
 
 This document is **not a textbook**. It will not hand you the answers.
 
-Instead, it gives you the **right questions to ask yourself** – questions every developer must be able to answer to master the topic at a global standard.
+Instead, it gives you the **right questions to ask yourself** — questions every developer must be able to answer to master the topic at a global standard.
 
 ### Here's how to use it effectively:
 
 #### 1. Ask Yourself First
 
 - Before looking things up, try to explain the answer in your own words
-- If you can't, that's fine – it means you found a gap in your knowledge
-- If a new question pops up in your own mind that's not in here, that's your curiosity leading you deeper – write it down and explore it
+- If you can't, that's fine — it means you found a gap in your knowledge
+- If a new question pops up in your own mind that's not in here, that's your curiosity leading you deeper — write it down and explore it
 
 #### 2. Leverage All Resources
 
@@ -81,7 +81,7 @@ Instead, it gives you the **right questions to ask yourself** – questions ever
 
 - Each section has project exercises
 - Completing these exercises forces you to practice and discover the answers naturally
-- Don't skip them – doing is how you'll turn "theory" into mastery
+- Don't skip them — doing is how you'll turn "theory" into mastery
 
 #### 4. Reflect and Explain
 
@@ -100,13 +100,13 @@ Instead, it gives you the **right questions to ask yourself** – questions ever
 
 ## 🌱 Philosophy Behind This Workbook
 
-### This is a **"find the answer within yourself"** document – the web development version.
+### This is a **"find the answer within yourself"** document — the web development version.
 
 - The **questions** represent the knowledge every web developer must internalize
 
 - **Be curious** → always ask "why does this work this way?"
 
-- The **resources** (Google, Stack Overflow, ChatGPT) are your tools – but the true goal is that **the understanding lives inside you**, not just in your search history
+- The **resources** (Google, Stack Overflow, ChatGPT) are your tools — but the true goal is that **the understanding lives inside you**, not just in your search history
 
 - The **exercises** are opportunities to struggle, explore, and discover
 
@@ -123,7 +123,7 @@ This workbook starts with the absolute basics:
 - **Deep questions** - Why does it behave this way?
 - **Scenario questions** - How do I solve this real problem?
 
-By the time you've asked and answered everything here – and built the exercises – you won't just "know HTML, CSS, and JavaScript." **You'll understand them so deeply that you can build, debug, and explain any project with confidence.**
+By the time you've asked and answered everything here — and built the exercises — you won't just "know HTML, CSS, and JavaScript." **You'll understand them so deeply that you can build, debug, and explain any project with confidence.**
 
 ---
 
@@ -153,7 +153,7 @@ By the time you've asked and answered everything here – and built the exercise
 - What are "tags"? Why do most tags come in pairs (opening and closing)?
 - You write `<p>Hello` but forget to close it with `</p>`. Does it still work? What problems might this cause?
 - Some tags don't have closing tags (like `<br>` and `<img>`). Why? What makes them different?
-- What's the difference between `<div>` and `<span>`? Try putting each on a page – how do they display differently?
+- What's the difference between `<div>` and `<span>`? Try putting each on a page — how do they display differently?
 - What are "attributes" in HTML tags? How do you add them to a tag?
 
 ### Your First HTML Page
@@ -186,13 +186,13 @@ Create your very first HTML document:
    - A line break (`<br>`)
 
 4. Open the file in your browser and view it
-5. Right-click and "View Page Source" – see your code!
+5. Right-click and "View Page Source" — see your code!
 
 **Experiment:**
 
 - What happens if you forget the closing `</html>` tag?
 - What happens if you put content in the `<head>` instead of `<body>`?
-- Try removing the `<!DOCTYPE html>` – does anything change?
+- Try removing the `<!DOCTYPE html>` — does anything change?
 - What happens if you nest tags incorrectly: `<p><div></p></div>`?
 
 ### Reflection
@@ -210,7 +210,7 @@ After building:
 
 ### The Problem
 
-You have text content – paragraphs, headings, lists, quotes – and you need to structure it so browsers and search engines understand what each piece means. Without structure, everything is just plain text with no hierarchy or meaning.
+You have text content — paragraphs, headings, lists, quotes — and you need to structure it so browsers and search engines understand what each piece means. Without structure, everything is just plain text with no hierarchy or meaning.
 
 ### Headings and Hierarchy
 
@@ -224,7 +224,7 @@ You have text content – paragraphs, headings, lists, quotes – and you need t
 
 - What's the difference between `<p>` and `<br>`? When should you use each?
 - You want to make some text bold. You could use `<b>` or `<strong>`. What's the difference? When does it matter?
-- What's the difference between `<i>` and `<em>`? They both make text italic – so why have both?
+- What's the difference between `<i>` and `<em>`? They both make text italic — so why have both?
 - How do you highlight text like a marker would on paper?
 - How do you show text that's been deleted or added (like in a document with tracked changes)?
 
@@ -237,482 +237,394 @@ You have text content – paragraphs, headings, lists, quotes – and you need t
 
 ### Grouping Content
 
-- What is a `<div>` and why is it called a "division"?
-- You want to group some paragraphs together. Should you wrap them in a `<div>`, a `<section>`, or something else?
-- What's the difference between `<div>` and `<section>`? Do they display differently?
-- How do you add a line break between content sections?
+- What's the difference between `<div>` and `<section>`?
+- You have related content that belongs together. When do you use `<div>` versus `<section>` versus `<article>`?
+- What does `<header>`, `<footer>`, `<nav>`, and `<main>` do?
+- Why use semantic tags instead of just `<div>` everywhere?
 
-### Build It: Blog Article About Yourself
+### Build It: Blog Post Page
 
-Create a structured blog post introducing yourself:
+Create a structured blog post webpage:
 
 **Requirements:**
 
-1. **Document Title**
+1. **Document Structure**
 
-   - `<h1>` for the main title: "About Me"
+   - Proper HTML5 structure with DOCTYPE
+   - `<head>` with title and meta tags
+   - `<body>` with semantic tags
 
-2. **Sections with Headings**
+2. **Content Hierarchy**
 
-   - Use `<h2>` for section titles: "My Background", "My Interests", "My Goals"
-   - Use `<h3>` for subsections if needed
+   - Main heading (`<h1>`) for the article title
+   - At least 3 section headings (`<h2>`)
+   - At least 2 subsection headings (`<h3>`)
+   - Multiple paragraphs under each section
 
-3. **Paragraphs**
+3. **Lists**
 
-   - Write at least 3 paragraphs about yourself
-   - Use `<p>` tags properly
-   - Use `<strong>` to emphasize important points
-   - Use `<em>` for subtle emphasis
+   - One ordered list (numbered steps)
+   - One unordered list (bullet points)
+   - One nested list (list inside a list)
 
-4. **Lists**
+4. **Text Formatting**
 
-   - Create an ordered list of your top 5 goals
-   - Create an unordered list of your hobbies
-   - Create a nested list (maybe your hobbies with sub-items)
+   - Bold/strong text
+   - Italic/emphasized text
+   - Highlighted text
+   - Deleted/added text
 
-5. **Formatting**
-   - Use `<mark>` to highlight one key phrase
-   - Use `<del>` and `<ins>` to show something you changed your mind about
-   - Use `<blockquote>` for a favorite quote
-   - Use `<code>` if you mention any technical terms
+5. **Semantic Structure**
+   - `<header>` for the article header
+   - `<nav>` for navigation links
+   - `<main>` for main content
+   - `<article>` for the blog post
+   - `<section>` for each major section
+   - `<footer>` for author info
 
 **Experiment:**
 
-- Try different heading levels – does the browser display them differently?
-- Create a list with 3 levels of nesting
-- Leave out closing tags – what happens?
-- Use multiple `<br>` tags in a row – how does spacing work?
+- Use only `<div>` tags — does it still work? What's missing?
+- Skip heading levels (h1 → h4) — what happens?
+- Nest lists 3 levels deep
+- Try different text formatting combinations
 
 ### Reflection
 
 After building:
 
-- Why is using heading hierarchy important beyond just making text bigger or smaller?
-- When should you use semantic tags (`<strong>`, `<em>`) versus style tags (`<b>`, `<i>`)?
-- How does proper structure help search engines understand your content?
-- What makes a list more appropriate than paragraphs for certain content?
+- Why is proper heading hierarchy important?
+- How do semantic tags make your HTML more meaningful?
+- When should you use a list instead of separate paragraphs?
+- How does semantic HTML help accessibility?
 
 ---
 
 ## Section 3: Links, Images & Media
 
-### The Problem
-
-Text-only pages are boring. You need to add images, videos, and links to other pages. The web is called the "web" because pages link to each other. Without links and media, you just have isolated documents.
-
 ### Understanding Links
 
-- What is a hyperlink? What makes it "hyper"?
-- What does the `<a>` tag stand for? (Hint: not "link")
-- You want to link to another page. What attribute tells the browser where to go?
-- What's the difference between `href="about.html"` and `href="https://google.com"`? (Relative vs absolute URLs)
-- How do you make a link open in a new tab? Should you always do this?
-- How do you create a link that jumps to a specific section on the same page?
-- What's the difference between `<a>` and `<button>`? When should you use each?
+- What makes the web "hyper" text? What do links do?
+- What is the `<a>` tag? What does it stand for?
+- What's the difference between a relative path (`./about.html`) and an absolute path (`https://example.com/about`)?
+- You click a link and it opens in a new tab. How does that work? (Hint: `target` attribute)
+- What happens if you create a link without an `href` attribute?
 
 ### Working with Images
 
-- What is the `<img>` tag? Why doesn't it have a closing tag?
-- What does `src` stand for? What does this attribute do?
-- You add an image, but it's way too big and breaks your layout. How do you control the size?
-- What is `alt` text? Why is every image supposed to have it?
-- Your image file doesn't exist or the path is wrong. What does the browser display?
-- What's the difference between `<img>` and CSS `background-image`? When should you use each?
+- What's the `<img>` tag? Why doesn't it need a closing tag?
+- What are `src` and `alt` attributes? Why is `alt` important?
+- You add an image but it doesn't show up. What might be wrong?
+- What's the difference between JPG, PNG, and SVG images? When do you use each?
+- How do you control image size? With HTML attributes or CSS?
 
-### Adding Videos and Audio
+### Media Elements
 
-- How do you embed a video in your page with the `<video>` tag?
-- What's the difference between embedding a video file and embedding a YouTube video?
-- What are video controls? How do you add play/pause buttons?
-- How do you add an audio player to your page?
-- What's the purpose of including multiple `<source>` elements inside a `<video>` tag?
+- What's the difference between `<img>`, `<video>`, and `<audio>`?
+- How do you add video to a webpage?
+- What does the `controls` attribute do on video/audio elements?
+- How do you make a video autoplay? Why might this be a bad idea?
+- What's an `<iframe>` and when would you use it?
 
-### Figures and Captions
+### Build It: Portfolio Page
 
-- You have an image that needs a caption underneath. How do you group them together semantically?
-- What's the difference between just putting text under an image versus using `<figure>` and `<figcaption>`?
-- Can you use `<figure>` for things other than images?
-
-### Build It: Personal Portfolio Page
-
-Create a portfolio page with links and media:
+Create a personal portfolio page with links, images, and media:
 
 **Requirements:**
 
-1. **Navigation Links**
+1. **Navigation**
 
-   - Create a navigation menu at the top
-   - Link to different sections: Home, About, Projects, Contact
-   - Use anchor links to jump to sections on the same page
+   - Navigation menu with links to different sections
+   - Links that jump to different parts of the same page (anchors)
+   - External link to your GitHub/LinkedIn (opens in new tab)
 
-2. **External Links**
+2. **Images**
 
-   - Link to your social media profiles (or fake ones)
-   - Make external links open in new tabs
-   - Add at least 3 external links
+   - Profile picture with appropriate `alt` text
+   - Gallery of 3-6 project screenshots
+   - Use relative paths for local images
 
-3. **Images**
+3. **Media**
 
-   - Add a profile picture (use placeholder if you don't have one)
-   - Add at least 3 project images
-   - Give every image meaningful `alt` text
-   - Make sure images aren't ridiculously huge
+   - Embed a YouTube video (using `<iframe>`)
+   - Or add a local video file using `<video>`
 
-4. **Figures with Captions**
-
-   - Wrap your project images in `<figure>` tags
-   - Add `<figcaption>` describing each project
-
-5. **Media**
-   - Embed a video (use a sample video file or YouTube embed)
-   - Add video controls
-   - (Optional) Add an audio file with a player
+4. **Link Variety**
+   - Internal links (navigation within the page)
+   - External links (to other websites)
+   - Email link (`mailto:`)
+   - Download link (link to a PDF resume)
 
 **Experiment:**
 
-- What happens if you forget the `alt` attribute?
-- Try setting image width with attributes vs CSS
-- Break an image link – what does the browser show?
-- Try different YouTube embed options
-- Create a clickable image (put `<img>` inside `<a>`)
+- Remove `alt` text from images — use a screen reader to see the problem
+- Try broken image links — what does the browser show?
+- Link to a non-existent page — what happens?
+- Try embedding different video platforms (YouTube, Vimeo)
 
 ### Reflection
 
 After building:
 
-- Why does the web use hyperlinks? What would the internet be like without them?
-- Why is `alt` text important beyond just accessibility?
-- When should you link to another page versus create anchor links on the same page?
-- What's the difference between embedding media and linking to it?
+- Why is `alt` text crucial for accessibility?
+- When should you use relative vs absolute paths?
+- How do links connect the entire web together?
+- What are the trade-offs of autoplay media?
 
 ---
 
 ## Section 4: Forms & User Input
 
-### The Problem
-
-You need to collect information from users: login credentials, search queries, contact messages, survey responses. Forms are how users send data to your website. Understanding forms is essential for building interactive websites.
-
 ### Understanding Forms
 
-- What is an HTML form? What happens when you submit a form?
-- What does the `<form>` tag do? Why do you need it?
+- What is a form? Why do websites need them?
+- What does the `<form>` tag do?
 - What's the difference between `method="get"` and `method="post"`?
-- What does the `action` attribute do? Where does form data go when submitted?
-- What happens if you press Enter while typing in a form?
+- Where does the form data go when you submit? (Hint: `action` attribute)
+- What happens if you submit a form without an `action` attribute?
 
 ### Input Types
 
-- What is an `<input>` tag? Why are there so many types?
-- What's the difference between `type="text"`, `type="email"`, and `type="password"`?
-- You want users to select a date. What input type do you use?
-- What's the difference between radio buttons and checkboxes? When do you use each?
-- How do you create a dropdown menu where users select one option?
-- How do you create a large text area for longer messages?
+- What are the different `<input>` types? (text, email, password, number, etc.)
+- You need to collect an email address. Why use `type="email"` instead of `type="text"`?
+- What's the difference between `<input>` and `<textarea>`?
+- How do radio buttons differ from checkboxes? When do you use each?
+- What does `placeholder` text do? Is it the same as `value`?
 
 ### Labels and Accessibility
 
-- What is a `<label>` tag? Why should every input have a label?
-- You click on the label text and the input focuses. How does this work?
-- What's the relationship between the label's `for` attribute and the input's `id`?
-- Why is this relationship important for accessibility?
+- What is a `<label>` and why is it important?
+- How do you connect a label to an input field?
+- You click on "Username" and the input field focuses. How does that work?
+- Why is the `for` attribute on labels important for accessibility?
 
 ### Form Validation
 
-- What does `required` do? Try submitting a form without filling in a required field.
-- How do you set minimum and maximum values for a number input?
-- What does the `pattern` attribute do? How do you validate an email format?
-- What's the difference between HTML validation and JavaScript validation?
-- How do you show users helpful error messages when validation fails?
+- What does the `required` attribute do?
+- How do you make a field required?
+- What's the difference between client-side and server-side validation?
+- What does `pattern` attribute do for input validation?
+- How do you set min/max values for number inputs?
 
 ### Buttons and Submission
 
-- What's the difference between `<button>` and `<input type="button">`?
-- What does `type="submit"` do? How is it different from a regular button?
-- You have a form with multiple buttons. How do you prevent them all from submitting the form?
-- What does `type="reset"` do? When is it useful?
+- What's the difference between `<button>` and `<input type="submit">`?
+- What's the difference between `type="submit"`, `type="button"`, and `type="reset"`?
+- You press Enter in a form. What happens? Why?
 
-### Build It: Contact Form with Validation
+### Build It: Contact Form
 
-Create a working contact form:
+Create a fully functional contact form:
 
 **Requirements:**
 
 1. **Form Structure**
 
-   - Wrap everything in a `<form>` tag
-   - Set appropriate `action` and `method`
-   - Add a form title/heading
+   - Form with appropriate action and method
+   - Proper semantic HTML structure
 
 2. **Input Fields**
 
-   - Name input (text type, required)
-   - Email input (email type, required)
-   - Phone number (tel type, optional)
-   - Subject dropdown (select with multiple options)
-   - Message textarea (required, at least 10 characters)
+   - Name (text input, required)
+   - Email (email input, required)
+   - Phone number (tel input, optional)
+   - Subject (dropdown select)
+   - Message (textarea, required)
+   - Newsletter checkbox (optional)
 
-3. **Labels and Accessibility**
+3. **Labels & Accessibility**
 
    - Every input has a label
-   - Labels are connected with `for` and `id`
-   - Add placeholder text for guidance
+   - Labels properly connected with `for` attribute
+   - Placeholder text where appropriate
 
-4. **Advanced Inputs**
+4. **Validation**
 
-   - Contact preference: radio buttons (Email, Phone, Either)
-   - Newsletter signup: checkbox
-   - Best time to contact: time picker
-   - Date of inquiry: date picker
+   - Required fields marked with `required`
+   - Email validation
+   - Minimum message length
 
-5. **Validation**
-
-   - Mark required fields with `required`
-   - Email must be valid format
-   - Message must be at least 10 characters (minlength)
-   - Phone must match a pattern (optional: use pattern attribute)
-
-6. **Submission**
-   - Submit button at the bottom
-   - Reset button to clear the form
-   - Try submitting – what happens?
+5. **Buttons**
+   - Submit button
+   - Reset button
 
 **Experiment:**
 
-- What happens when you submit without filling required fields?
-- Try entering an invalid email – what does the browser do?
-- Click on labels – do the inputs focus?
-- Remove all labels – how does it affect usability?
-- Try tabbing through the form – does it work logically?
+- Submit the form without filling required fields — what happens?
+- Remove labels — try navigating with Tab key
+- Try different input types (date, color, range)
+- Add multiple radio buttons with same `name` — what happens?
 
 ### Reflection
 
 After building:
 
-- Why are labels important beyond just showing text next to inputs?
-- What's the difference between client-side validation (HTML/JavaScript) and server-side validation?
-- When should you use a checkbox versus radio buttons?
-- How do forms make the web interactive rather than just informational?
+- Why is form validation important on both client and server?
+- How do labels improve accessibility?
+- When should you use GET vs POST methods?
+- Why validate email format on the client side?
 
 ---
 
 ## Section 5: Tables & Structured Data
 
-### The Problem
-
-You have data that naturally fits in rows and columns: price comparisons, schedules, statistics, grades, product specifications. Tables display this structured data clearly and let users scan and compare information efficiently.
-
 ### Understanding Tables
 
-- What is a table? When should you use a table versus a list?
-- What are the main parts of a table: `<table>`, `<tr>`, `<td>`, `<th>`?
-- What does each abbreviation mean? (tr = table row, td = table data, th = table header)
-- Why should you never use tables for page layout? (They used to be used this way – what changed?)
+- What is an HTML table? When should you use one?
+- You have data with rows and columns (like a spreadsheet). How do you display it?
+- Why shouldn't you use tables for layout? (What should you use instead?)
+- What's the difference between `<table>`, `<tr>`, `<td>`, and `<th>`?
 
 ### Table Structure
 
-- What's the difference between `<thead>`, `<tbody>`, and `<tfoot>`? Why have three sections?
-- When should you use `<th>` versus `<td>`?
-- How do you create a table with headers both at the top AND on the left side?
-- What is the `scope` attribute? Why is it important for accessibility?
+- How do you create table headers versus regular cells?
+- What do `<thead>`, `<tbody>`, and `<tfoot>` do? Are they required?
+- How do you make a cell span multiple columns? Multiple rows?
+- How do you add a caption to a table?
 
-### Spanning Cells
+### Table Accessibility
 
-- You want one cell to stretch across multiple columns. What attribute do you use?
-- What's the difference between `colspan` and `rowspan`?
-- You're creating a calendar table. How do you make cells span multiple days?
-- What happens if your colspan/rowspan math doesn't add up correctly?
+- Why are table headers (`<th>`) important for screen readers?
+- What does the `scope` attribute do on `<th>` elements?
+- How do screen readers navigate tables?
 
-### Table Captions and Accessibility
+### Build It: Data Table
 
-- What is a `<caption>` element? Where does it go in the table?
-- Why should tables have captions?
-- How do screen readers announce table data? How does proper structure help?
-
-### Build It: Student Grade Table
-
-Create a comprehensive grade table:
+Create a structured data table:
 
 **Requirements:**
 
-1. **Basic Grade Table**
+1. **Basic Table Structure**
 
-   - Table with student names, 3 assignment scores, midterm, final, and total
-   - Use `<thead>` for header row with `<th>` elements
-   - Use `<tbody>` for student data rows with `<td>` elements
-   - Use `<tfoot>` for average row at the bottom
-   - Add a `<caption>` describing the table
+   - Table with `<thead>`, `<tbody>`, and `<tfoot>`
+   - At least 5 rows and 4 columns
+   - Table caption
 
-2. **Scope Attributes**
+2. **Headers**
 
-   - Add `scope="col"` to column headers
-   - Add `scope="row"` to student names (if names are in first column)
+   - Column headers using `<th>`
+   - Proper `scope` attributes
 
-3. **Spanning Cells**
+3. **Advanced Features**
 
-   - Create a "Assignments" header that spans 3 columns
-   - Create a "Exams" header that spans 2 columns
-   - Group related columns with merged headers
+   - One cell that spans multiple columns
+   - One cell that spans multiple rows
+   - Footer row with totals/summary
 
-4. **Styling Context** (using attributes)
-
-   - Add alternating background colors using CSS or style attribute
-   - Highlight the header row
-   - Make the footer row stand out
-
-5. **Second Table: Schedule**
-   - Create a weekly class schedule
-   - Days of week as columns
-   - Time slots as rows
-   - Use rowspan for classes longer than one period
-   - Use colspan for classes across multiple days
+4. **Content Ideas**
+   - Product pricing table
+   - Schedule/timetable
+   - Comparison table
+   - Gradebook
 
 **Experiment:**
 
-- Try removing `<thead>` and `<tbody>` – does it still work?
-- Make a cell span wrong (colspan="2" but you want 3 columns)
-- Try nesting a table inside a table cell
-- Remove all `<th>` tags and use `<td>` – how does it affect readability?
+- Remove `<thead>` and `<tbody>` — does it still work?
+- Try complex colspan/rowspan combinations
+- Use a screen reader to navigate the table
+- Style the table with CSS (borders, colors)
 
 ### Reflection
 
 After building:
 
-- When is a table the right choice versus a list or other structure?
-- Why is semantic table structure important for accessibility?
-- How does `scope` help screen reader users understand table relationships?
-- What makes colspan and rowspan powerful but potentially confusing?
+- When should you use a table versus other HTML elements?
+- How do proper table headers help accessibility?
+- What makes a table easy to read and understand?
 
 ---
 
 ## Section 6: Semantic HTML & Accessibility
 
-### The Problem
+### Understanding Semantics
 
-Two websites can look identical but be completely different in their HTML structure. One uses `<div>` for everything, the other uses semantic HTML. Search engines and screen readers can understand the semantic one but struggle with the `<div>`-soup. Accessibility isn't optional – it's a core requirement for professional web development.
-
-### Understanding Semantic HTML
-
-- What does "semantic" mean? How is `<header>` more semantic than `<div id="header">`?
-- Why should you care about semantics if you can style a `<div>` to look like anything?
-- How do search engines use semantic HTML to understand your page?
-- What's wrong with using `<div>` and `<span>` for everything?
+- What does "semantic" mean in HTML?
+- Why use `<article>` instead of `<div>`? They look the same!
+- How do semantic tags help search engines understand your content?
+- What's the difference between `<section>`, `<article>`, and `<div>`?
 
 ### Semantic Structure Elements
 
-- What's the difference between `<div>` and `<section>`?
-- When should you use `<article>` versus `<section>`?
-- What is `<header>` for? Can you have multiple `<header>` elements?
-- What goes in a `<nav>` element? Should all links be in `<nav>`?
-- What is `<main>`? How many `<main>` elements should a page have?
-- What is `<aside>` for? What kind of content belongs in it?
-- What is `<footer>` for? Can you have multiple footers?
-
-### Landmarks and Navigation
-
-- What are "landmark" elements? How do screen reader users use them?
-- How does a blind user jump directly to the main content of your page?
-- What is a "skip to content" link? Why is it important?
-- Why should your page have a logical heading structure?
+- What is `<header>` used for? Can you have multiple headers on one page?
+- What goes in `<nav>`? Should every link be in a nav?
+- What's the difference between `<aside>` and `<section>`?
+- What does `<main>` represent? Should you have multiple main elements?
+- When should you use `<figure>` and `<figcaption>`?
 
 ### Accessibility Basics
 
-- What does "accessibility" (a11y) mean in web development?
-- Why should every image have an `alt` attribute?
-- Your navigation uses icon buttons with no text. How do screen reader users know what they do?
-- What is ARIA? When should you use ARIA attributes?
-- What is keyboard navigation? Why must your site work without a mouse?
-- What is focus? How do you make focus visible to keyboard users?
+- What is web accessibility? Why does it matter?
+- What are screen readers and how do they interact with HTML?
+- What does ARIA stand for? When do you need it?
+- What's the difference between semantic HTML and ARIA attributes?
 
-### ARIA Attributes
+### Accessible Practices
 
-- What does `aria-label` do? When do you need it?
-- What is `aria-hidden`? When should you hide content from screen readers?
-- What are `aria-live` regions? When do you need them?
-- What does `role` attribute do? When should you avoid using it?
-- What is `aria-current`? How does it help with navigation?
+- Why is proper heading hierarchy important for accessibility?
+- How do `alt` attributes help blind users?
+- What makes a link accessible? (Hint: descriptive link text)
+- Why should you avoid "click here" as link text?
+- What's the difference between hiding content visually vs hiding from screen readers?
 
-### Build It: Accessible News Article Page
+### Form Accessibility
 
-Create a complete, accessible news article:
+- Why must every input have a label?
+- What do screen readers announce for form inputs?
+- How do you provide helpful error messages?
+- What makes a form easy to navigate with a keyboard?
+
+### Build It: Accessible Blog Layout
+
+Create a fully semantic and accessible blog page:
 
 **Requirements:**
 
 1. **Semantic Structure**
 
-   - `<header>` for the site header (logo, main navigation)
-   - `<nav>` for navigation menu
-   - `<main>` for the main content area (only one per page)
-   - `<article>` for the news article
-   - Multiple `<section>` elements within the article
-   - `<aside>` for related links or sidebar
-   - `<footer>` for copyright and footer links
+   - `<header>` with site title and navigation
+   - `<nav>` with proper link structure
+   - `<main>` containing the primary content
+   - `<article>` for blog posts
+   - `<aside>` for related links/info
+   - `<footer>` with copyright and links
 
-2. **Heading Hierarchy**
+2. **Proper Heading Hierarchy**
 
-   - One `<h1>` for the article title
-   - `<h2>` for major sections
-   - `<h3>` for subsections
+   - Only one `<h1>` (page title)
+   - Logical h2, h3, h4 structure
    - No skipped heading levels
 
-3. **Navigation**
-
-   - Create a "Skip to main content" link at the very top
-   - Navigation menu with current page indicated
-   - Use semantic `<nav>` element
-   - Add `aria-current="page"` to current page link
-
-4. **Images and Media**
+3. **Accessible Media**
 
    - All images have descriptive `alt` text
-   - Decorative images have `alt=""`
-   - Use `<figure>` and `<figcaption>` for images with captions
+   - Decorative images use `alt=""`
+   - Figures use `<figure>` and `<figcaption>`
 
-5. **Forms (if included)**
+4. **Accessible Links**
 
-   - All inputs have `<label>` elements
-   - Error messages are associated with inputs
-   - Required fields are marked
+   - Descriptive link text (not "click here")
+   - External links indicate they open in new tab
 
-6. **Keyboard Navigation**
-
-   - All interactive elements are reachable with Tab
-   - Focus is visible (don't remove outline without replacement)
-   - Logical tab order (top to bottom, left to right)
-
-7. **ARIA Enhancements**
-
-   - Add `aria-label` to icon buttons
-   - Use `aria-live="polite"` for dynamic content updates
-   - Use `aria-hidden="true"` for decorative icons
-
-8. **Content**
-   - Use `<strong>` and `<em>` for semantic emphasis, not just styling
-   - Use `<time>` for dates with `datetime` attribute
-   - Use `<address>` for contact information
-
-**Testing Requirements:**
-
-- Navigate the entire page using only the keyboard (Tab, Shift+Tab, Enter)
-- Use a screen reader (NVDA on Windows, VoiceOver on Mac)
-- Validate HTML with W3C validator
-- Check with WAVE accessibility tool
+5. **Keyboard Navigation**
+   - Can navigate entire page with Tab key
+   - Focus states are visible
+   - Logical tab order
 
 **Experiment:**
 
-- Replace semantic elements with `<div>` - how does screen reader experience change?
-- Remove all `alt` attributes - what does screen reader announce?
-- Remove focus indicators - can you navigate with keyboard?
-- Skip heading levels (h1 to h4) - what problems does this cause?
+- Navigate your page using only the keyboard (Tab, Enter)
+- Use a screen reader to experience your page
+- Remove all semantic tags — replace with divs — what's lost?
+- Add ARIA labels where needed
 
 ### Reflection
 
 After building:
 
-- Why is semantic HTML important beyond just "looking the same"?
-- How do search engines benefit from semantic structure?
-- What's the difference between making something look accessible and actually being accessible?
-- When should you use ARIA versus using semantic HTML?
+- How does semantic HTML improve accessibility?
+- Why is heading hierarchy so important?
+- What makes a website easy to navigate for keyboard users?
+- How do screen readers experience your websites?
 
 ---
 
@@ -724,592 +636,403 @@ After building:
 
 ### Understanding CSS
 
-- What is CSS, and what problem does it solve?
-- Why is styling separated from HTML? What if they were combined?
-- What does "Cascading Style Sheets" mean? What is "cascading"?
-- What's the difference between presentation and structure?
-- Before CSS existed, how did people make websites look good? Why did they need CSS?
+- What is CSS and what problem does it solve?
+- You have HTML with no CSS. What does it look like?
+- Why is styling separate from content?
+- What does "Cascading Style Sheets" mean? What's "cascading"?
 
 ### Adding CSS to HTML
 
-- What are the three ways to add CSS to HTML? (Inline, Internal, External)
-- You add `style="color: red"` directly to a tag. Where does this fall? When is this okay?
-- You add `<style>` tags in the `<head>`. What is this called? When should you use it?
-- You create a separate `styles.css` file and link it. How do you connect it to your HTML?
-- What are the pros and cons of each method?
-- Which method is best for a multi-page website? Why?
+- What are the three ways to add CSS to HTML?
+- What's the difference between inline styles, internal stylesheets, and external stylesheets?
+- Which method is best? Why?
+- How do you link an external CSS file to HTML?
 
 ### CSS Syntax
 
-- What is the basic syntax of a CSS rule? (selector, property, value)
-- What's the difference between a selector, a property, and a value?
-- You write `color: red` - which part is the property? Which is the value?
-- What does the semicolon (`;`) do? What happens if you forget it?
-- What do the curly braces (`{}`) do?
-- How do you write comments in CSS?
+- What's the basic structure of a CSS rule?
+- What are selectors, properties, and values?
+- You write `color: blue;` — what's the property? What's the value?
+- How do you add comments in CSS?
 
-### Selectors: Targeting Elements
+### Basic Selectors
 
-- How do you select all `<p>` elements?
-- How do you select an element with `id="header"`?
-- How do you select elements with `class="button"`?
-- What's the difference between `#header` and `.header`?
-- Can multiple elements have the same class? Can multiple elements have the same ID?
-- What's the difference between `.nav li` and `.nav > li`? (Descendant vs child)
+- How do you select an element by tag name?
+- How do you select by class? (Hint: `.classname`)
+- How do you select by ID? (Hint: `#idname`)
+- What's the difference between class and ID selectors?
+- Can multiple elements have the same class? The same ID?
 
-### Basic Properties
+### Text Styling
 
 - How do you change text color?
-- How do you change background color?
 - How do you change font size?
-- How do you make text bold? Italic?
-- How do you change which font is used?
-- How do you add space inside an element? Outside an element?
+- How do you change font family?
+- What's the difference between `font-weight: bold` and `font-weight: 700`?
+- How do you align text (left, center, right)?
 
-### Understanding Specificity
+### Colors
 
-- You have two rules targeting the same element with different colors. Which color wins?
-- What makes one selector more "specific" than another?
-- Why does `#header` win over `.header`?
-- You have a rule on `p` and another on `.intro`. Which one applies to `<p class="intro">`?
-- What is the specificity order: element, class, ID, inline style?
-- How do you check which styles are actually applied to an element?
+- What are the different ways to specify colors in CSS?
+- What's the difference between named colors, hex codes, RGB, and RGBA?
+- How do you make a color semi-transparent?
+- What does the "A" in RGBA stand for?
 
-### The Cascade
+### Box Model Basics
 
-- Three rules target the same element with the same specificity. Which one wins?
-- What does "last one wins" mean?
-- What is inheritance? Which properties inherit and which don't?
-- Your `<body>` has `color: blue`. Does the color apply to all text on the page?
+- What is the CSS box model?
+- What's the difference between `margin` and `padding`?
+- You want space inside a box — margin or padding?
+- You want space outside a box — margin or padding?
+- How do you add a border?
 
-### Build It: Style Your Portfolio Page
+### Build It: Styled Blog Post
 
-Take your HTML portfolio from before and add CSS:
+Take your HTML blog post from earlier and style it with CSS:
 
 **Requirements:**
 
-1. **Set Up CSS**
+1. **External Stylesheet**
 
-   - Create a `styles.css` file
-   - Link it to your HTML with `<link>` in the `<head>`
-   - Test that it's connected (change body background color)
+   - Create a separate CSS file
+   - Link it to your HTML
 
 2. **Typography**
 
-   - Change the font family for the entire page
-   - Style all headings with a different color
-   - Make your `<h1>` bigger than the browser default
-   - Change paragraph font size
-   - Adjust line-height for readability
+   - Choose and apply a font family
+   - Style headings differently from paragraphs
+   - Set appropriate font sizes
+   - Adjust line height for readability
 
 3. **Colors**
 
-   - Set a background color for the page
-   - Set a different background color for your header section
-   - Make links a specific color
-   - Change link color on hover
+   - Define a color scheme (3-4 colors)
+   - Style headings with color
+   - Add a background color
+   - Style links with color
 
-4. **Selectors Practice**
+4. **Box Model**
 
-   - Use element selectors (all `<p>` tags)
-   - Use class selectors (add classes to elements first)
-   - Use ID selectors (add an ID to one element)
-   - Use descendant selectors (`.nav a` for links inside navigation)
+   - Add padding to content sections
+   - Add margins between sections
+   - Add borders where appropriate
 
-5. **Specificity Challenges**
-   - Style a paragraph with a class differently from other paragraphs
-   - Create a style conflict and see which rule wins
-   - Use browser DevTools to inspect which styles are applied
-   - Override a style by making a more specific selector
+5. **Classes**
+   - Create reusable classes (`.highlight`, `.warning`, etc.)
+   - Apply multiple classes to elements
 
 **Experiment:**
 
-- Add inline styles - do they override your external CSS?
-- Create two conflicting rules with the same specificity
-- Make a typo in a property name - what happens?
-- Try to style an element but your CSS doesn't apply - debug why
-- Change the order of rules in your CSS - does anything change?
+- Change all margins to padding — what changes?
+- Remove all CSS — see the unstyled HTML
+- Use only inline styles — how does it compare?
+- Try different color formats (hex, rgb, named)
 
 ### Reflection
 
 After building:
 
-- Why is external CSS better than inline styles for large projects?
-- How does the cascade decide which styles to apply?
-- Why does specificity exist? What problems would occur without it?
-- How do you debug CSS when styles don't apply as expected?
+- Why is external CSS better than inline styles?
+- How does the box model affect layout?
+- What makes text readable and pleasant to read?
+- Why use classes instead of styling every element individually?
 
 ---
 
 ## 🟡 Intermediate: Layout & Positioning
 
-### The Problem
+### Understanding Layout
 
-Your elements stack vertically like a text document. You need elements side-by-side, centered, positioned exactly where you want them. You need grids, flexbox layouts, navigation bars, sidebars, and footers. Understanding layout is what separates a plain document from a real website design.
-
-### Understanding the Box Model
-
-- What is the CSS box model?
-- What's the difference between content, padding, border, and margin?
-- You set `width: 200px` on a div. Then you add `padding: 20px` and `border: 5px`. How wide is the div now?
-- What does `box-sizing: border-box` do? How is it different from the default?
-- What's the difference between margin and padding? When do you use each?
-- How do you add spacing between elements? Inside elements?
-
-### Display Types
-
-- What does `display: block` mean? Which elements are block by default?
-- What does `display: inline` mean? Which elements are inline by default?
-- What's the difference between `display: inline-block` and `display: block`?
-- Your `<span>` needs width and height. Does it work? Why or why not?
-- What does `display: none` do? How is it different from `visibility: hidden`?
+- What's the default layout of HTML elements?
+- What's the difference between block and inline elements?
+- How do `<div>` (block) and `<span>` (inline) behave differently?
+- What does `display: block`, `display: inline`, and `display: inline-block` do?
 
 ### Positioning
 
-- What are the five position values? (static, relative, absolute, fixed, sticky)
-- What is the default positioning for elements?
-- What does `position: relative` do? Relative to what?
-- What does `position: absolute` do? What is it positioned relative to?
-- Your absolutely positioned div isn't where you expect. What's happening with the parent?
-- What does `position: fixed` do? When would you use it?
-- What does `position: sticky` do? How is it a hybrid of relative and fixed?
-- What are `top`, `right`, `bottom`, `left` properties? When can you use them?
+- What are the different position values? (static, relative, absolute, fixed, sticky)
+- What's the difference between `position: relative` and `position: absolute`?
+- How do `top`, `right`, `bottom`, `left` work with positioning?
+- You want an element to stay at the top of the page when scrolling. How?
+- What's the difference between `fixed` and `sticky` positioning?
 
-### Understanding Flexbox
+### Flexbox
 
 - What problem does Flexbox solve?
-- How do you make an element a flex container?
-- What's the difference between `justify-content` and `align-items`?
-- Your items are in a column instead of a row. What property controls direction?
-- What does `flex-wrap` do? When do you need it?
-- What's the difference between `flex-grow`, `flex-shrink`, and `flex-basis`?
+- How do you create a flex container?
+- What's the difference between `flex-direction: row` and `flex-direction: column`?
+- How do you center items with Flexbox?
+- What do `justify-content` and `align-items` do?
+- What's the difference between `flex-wrap: wrap` and `flex-wrap: nowrap`?
 
-### Understanding CSS Grid
+### Grid
 
-- What problem does Grid solve that Flexbox doesn't?
+- What problem does CSS Grid solve?
+- How is Grid different from Flexbox?
 - How do you create a grid container?
-- What's the difference between `grid-template-columns` and `grid-template-rows`?
-- How do you create a 3-column layout with Grid?
-- What does `gap` do in Grid? How is it different from margin?
-- What's the difference between `fr` units and percentages in Grid?
-- How do you make an item span multiple columns or rows?
+- What do `grid-template-columns` and `grid-template-rows` do?
+- How do you create a responsive grid?
+- What's the difference between `fr` units and pixels?
 
-### Float and Clear
+### Float (Legacy)
 
-- What does `float` do? Why was it originally created?
-- What's the "float collapse" problem?
-- What does `clear` do?
-- Why don't people use float for layout anymore? What replaced it?
+- What does `float` do? Is it still used?
+- What problems did float have that Flexbox/Grid solve?
+- What does `clear` do with floats?
+- When might you still use float?
 
-### Build It: Responsive Dashboard Layout
+### Build It: Responsive Layout
 
-Create a complete page layout using different techniques:
+Create a responsive page layout using modern CSS:
 
 **Requirements:**
 
-1. **Box Model Practice**
+1. **Header Layout (Flexbox)**
 
-   - Create boxes/cards with content
-   - Add padding inside boxes
-   - Add margin between boxes
-   - Add borders around boxes
-   - Use `box-sizing: border-box` on all elements
+   - Logo on the left
+   - Navigation menu on the right
+   - Centered vertically
 
-2. **Header (Fixed Position)**
+2. **Main Content (Grid)**
 
-   - Create a header that sticks to the top when scrolling
-   - Use `position: fixed`
-   - Make sure content doesn't hide behind it
-   - Add logo on left, navigation on right
+   - Sidebar on the left (300px)
+   - Main content area (flexible)
+   - Right sidebar (250px)
 
-3. **Navigation Bar (Flexbox)**
+3. **Card Layout (Flexbox or Grid)**
 
-   - Create a horizontal navigation menu
-   - Use Flexbox to space items evenly
-   - Items should distribute across available space
-   - Add hover effects
+   - Gallery of cards
+   - Cards wrap to new rows
+   - Equal height cards
 
-4. **Content Layout (Grid)**
+4. **Footer (Flexbox)**
 
-   - Create a grid layout with main content and sidebar
-   - Use CSS Grid with columns: 70% main, 30% sidebar
-   - Add gap between grid items
-   - Make sure grid is responsive
+   - Three columns of links
+   - Evenly spaced
 
-5. **Card Grid (Flexbox)**
-
-   - Create a grid of cards (like products or blog posts)
-   - Use Flexbox to arrange cards
-   - Cards should wrap to new rows
-   - Cards should have equal heights
-
-6. **Footer**
-
-   - Create a footer at the bottom
-   - Use Flexbox for internal layout
-   - Make it full width
-
-7. **Positioning Challenges**
-   - Add a "back to top" button (fixed position)
-   - Position a badge/notification icon on a button (absolute)
-   - Make an element overlap another (z-index)
-
-**Layout Requirements:**
-
-- Header: 60px height, fixed at top
-- Sidebar: 250px width
-- Main content: fills remaining space
-- Cards: 3 per row on desktop, wrap responsively
-- Footer: spans full width at bottom
+5. **Positioning Practice**
+   - Fixed header that stays at top
+   - Sticky sidebar that stays visible when scrolling
+   - "Back to top" button in bottom-right corner
 
 **Experiment:**
 
-- Try removing `box-sizing: border-box` - what breaks?
-- Change flex-direction from row to column
-- Add more grid items than fit - what happens?
-- Make a positioned element but forget parent position: relative
-- Try different z-index values - what controls stacking?
+- Change flex-direction — see the layout change
+- Adjust grid columns (2, 3, 4 columns)
+- Try different justify-content values
+- Remove positioning — see the difference
 
 ### Reflection
 
 After building:
 
-- When should you use Flexbox versus Grid?
-- What problems does `box-sizing: border-box` solve?
-- How does positioning create layers (z-index)?
-- Why is understanding the box model crucial for all CSS layout?
+- When should you use Flexbox vs Grid?
+- How does Flexbox make layouts easier than old methods?
+- What makes a layout responsive?
+- How does positioning create layered layouts?
 
 ---
 
 ## 🔵 Advanced: Responsive Design & Performance
 
-### The Problem
-
-Your beautiful desktop design breaks on mobile phones. Images are huge, text is tiny, layouts stack awkwardly, buttons are too small to tap. Over 50% of web traffic is mobile. Your site must work perfectly on any screen size. You also need to optimize CSS for fast loading and smooth animations.
-
 ### Understanding Responsive Design
 
-- What does "responsive" mean in web design?
-- What would happen if you built a website that only looked good on your laptop?
-- Why do some websites make you pinch-zoom on mobile while others adapt perfectly?
-- What is "mobile-first" design? Why do people recommend it?
-
-### Viewport and Meta Tag
-
-- What is the viewport?
-- You open your site on a phone and it looks like a tiny desktop version. What's missing?
-- What does `<meta name="viewport" content="width=device-width, initial-scale=1.0">` do?
-- What happens if you forget this meta tag?
+- What is responsive design? Why is it important?
+- What's the difference between responsive and adaptive design?
+- What's mobile-first design?
+- Why design for mobile first instead of desktop first?
 
 ### Media Queries
 
-- What is a media query?
-- How do you apply different styles for different screen sizes?
+- What are media queries?
+- How do you write a media query for mobile devices?
 - What's the difference between `min-width` and `max-width`?
-- You want styles for "tablets only" (not mobile, not desktop). How do you target that?
-- What is a "breakpoint"? How do you choose where to place breakpoints?
-- What's the difference between `screen`, `print`, and `all` media types?
+- How do you target different screen sizes?
+- What's the viewport meta tag? Why is it crucial for mobile?
 
 ### Responsive Units
 
-- What's the difference between `px`, `%`, `em`, `rem`, `vw`, and `vh`?
-- When should you use pixels versus relative units?
-- You set font-size: 2em. What is it relative to?
+- What's the difference between `px`, `em`, `rem`, `%`, `vw`, `vh`?
+- When should you use `rem` instead of `px`?
+- How do viewport units (`vw`, `vh`) work?
 - What's the difference between `em` and `rem`?
-- What are viewport units (`vw`, `vh`)? When are they useful?
-- What does `calc()` do? When would you use it?
 
 ### Responsive Images
 
-- Your image is 4000px wide but displays at 400px. Is the user downloading the whole thing?
-- What is the `srcset` attribute? How does it help with responsive images?
-- What are `sizes` attributes? How do they work with `srcset`?
-- What is the `<picture>` element? When should you use it instead of `<img>`?
-- What is "art direction" for images?
-- What is lazy loading? How do you implement it?
+- How do you make images responsive?
+- What does `max-width: 100%` do to images?
+- What's the difference between `<img>` `srcset` and CSS media queries?
+- How do you serve different images for different screen sizes?
 
-### Flexible Layouts
+### CSS Variables
 
-- How do you make a grid that shows 3 columns on desktop, 2 on tablet, 1 on mobile?
-- Your design uses fixed widths (300px). How do you make it flexible?
-- What does `max-width` do? How is it different from `width`?
-- How do you make a container fluid but never wider than a certain size?
+- What are CSS custom properties (variables)?
+- How do you define a CSS variable?
+- How do you use a CSS variable?
+- Why use CSS variables instead of hardcoded values?
+- How do CSS variables help with theming?
 
-### CSS Performance
+### Animations & Transitions
 
-- Which CSS properties trigger reflow (layout recalculation)?
-- Which properties can be animated smoothly (GPU-accelerated)?
-- What's the difference between animating `width` versus `transform`?
-- Why do some animations feel "janky" or slow?
-- What does `will-change` do?
-- What is "render-blocking CSS"? How do you fix it?
+- What's the difference between transitions and animations?
+- How do you create a smooth hover effect?
+- What's a CSS keyframe animation?
+- How do you control animation timing?
+- What properties can you animate? Which should you avoid for performance?
 
-### Build It: Fully Responsive Portfolio Website
+### Build It: Fully Responsive Site
 
-Transform your portfolio into a professional responsive site:
+Create a multi-page website that works on all devices:
 
 **Requirements:**
 
-1. **Mobile-First Development**
+1. **Mobile-First Approach**
 
-   - Start with mobile styles (320px)
-   - Add media queries for larger screens
-   - Breakpoints: 768px (tablet), 1024px (desktop)
-   - Test at every size
+   - Design for mobile (320px) first
+   - Add breakpoints for tablet (768px) and desktop (1024px)
 
-2. **Responsive Grid**
+2. **Responsive Navigation**
 
-   - Cards: 1 column on mobile, 2 on tablet, 3 on desktop
-   - Use CSS Grid with `auto-fit` or `auto-fill`
-   - Or use Flexbox with `flex-wrap`
+   - Hamburger menu on mobile
+   - Horizontal menu on desktop
+   - Smooth transitions
 
-3. **Responsive Typography**
+3. **Responsive Grid**
 
-   - Base font-size: 16px mobile, 18px desktop
-   - Headings scale proportionally
-   - Use `rem` for consistent sizing
-   - Consider using `clamp()` for fluid typography
+   - 1 column on mobile
+   - 2 columns on tablet
+   - 3-4 columns on desktop
 
-4. **Responsive Navigation**
+4. **Responsive Typography**
 
-   - Mobile: Hamburger menu (vertical)
-   - Desktop: Horizontal menu
-   - Smooth transition between layouts
-   - Touch-friendly tap targets (44px minimum)
+   - Font sizes scale with screen size
+   - Comfortable reading width (max-width on paragraphs)
 
 5. **Responsive Images**
 
-   - Use `srcset` for different resolutions
-   - Use `<picture>` for art direction (different crops)
-   - Lazy load images below the fold
-   - Ensure images never overflow
+   - Images scale properly
+   - Different images for mobile/desktop (optional)
 
-6. **Flexible Layouts**
+6. **CSS Variables Theme**
 
-   - Use `%` or `fr` units for widths
-   - Use `max-width` to prevent super-wide layouts
-   - Use `min-height` for flexible boxes
-   - Avoid fixed heights
+   - Define color scheme with CSS variables
+   - Easy to change entire theme
 
-7. **Performance Optimization**
-   - Animate `transform` and `opacity` only
-   - Use `will-change` for frequently animated elements
-   - Minimize CSS file size
-   - Inline critical CSS (above-the-fold styles)
-
-**Media Query Breakpoints:**
-
-```css
-/* Mobile first: base styles */
-/* Tablet: 768px and up */
-/* Desktop: 1024px and up */
-```
-
-**Testing Requirements:**
-
-- Test on real devices (phone, tablet)
-- Use Chrome DevTools device emulation
-- Test at random sizes between breakpoints
-- Ensure no horizontal scroll at any size
-- Test with slow network (DevTools throttling)
+7. **Animations**
+   - Smooth transitions on hover
+   - Fade-in animation on page load
+   - Animated hamburger menu
 
 **Experiment:**
 
-- Remove viewport meta tag - what happens on mobile?
-- Try animating `width` versus `transform` - feel the difference
-- Use only fixed widths - watch it break
-- Remove media queries - how does mobile look?
-- Add hundreds of complex selectors - test performance
+- View on different device sizes in DevTools
+- Change breakpoints — see when layout breaks
+- Modify CSS variables — see theme change instantly
+- Test animations on different browsers
 
 ### Reflection
 
 After building:
 
-- Why is mobile-first development often better than desktop-first?
-- Which CSS properties can you safely animate without performance issues?
-- How do you balance responsive design with performance?
-- When should you use `em` versus `rem` versus `px`?
+- Why is mobile-first approach beneficial?
+- How do media queries enable responsive design?
+- What makes typography readable on different devices?
+- How can CSS variables improve maintainability?
 
 ---
 
 ## 🔴 Expert: CSS Architecture & Scale
 
-### The Problem
+### Understanding CSS at Scale
 
-Your project has grown. You have 10,000 lines of CSS. Multiple developers are editing the same stylesheet. Class names conflict. Specificity wars are constant. Old styles are accumulating because you're afraid to delete anything. You need a methodology to organize, maintain, and scale CSS.
+- What problems arise when CSS grows large?
+- What is CSS specificity? How does it cause problems?
+- What's the difference between specificity and the cascade?
+- How do you organize CSS for large projects?
 
-### Understanding CSS Architecture
-
-- Why does CSS need "architecture"? Can't you just write styles?
-- What problems appear when CSS grows large?
-- What is a naming convention? Why would you need one?
-- What is specificity hell? How do projects get there?
-- How do you organize CSS in large projects?
-
-### CSS Methodologies
+### Naming Conventions
 
 - What is BEM (Block Element Modifier)?
-- What do these mean: `.card`, `.card__title`, `.card--featured`?
-- Why would you write long class names like `.site-header__navigation-item--active`?
-- What is OOCSS (Object-Oriented CSS)?
-- What is SMACSS? How does it organize styles?
-- What is utility-first CSS (like Tailwind)?
-- What are the pros and cons of each methodology?
+- Why use naming conventions?
+- How does BEM help avoid specificity issues?
+- What are other CSS naming methodologies?
 
-### CSS Variables (Custom Properties)
+### CSS Preprocessors
 
-- What are CSS custom properties? How are they different from Sass variables?
-- How do you define a CSS variable? How do you use it?
-- Your site has 20 shades of blue scattered throughout the CSS. How do CSS variables help?
-- Can you change CSS variables with JavaScript?
-- What's the difference between `:root` and `:host` for variables?
-- How do CSS variables enable theming?
+- What are CSS preprocessors (Sass, Less)?
+- What features do preprocessors add to CSS?
+- What are variables, nesting, mixins, and functions?
+- Do you need preprocessors with modern CSS?
 
-### Cascade Layers
+### Performance
 
-- What are CSS cascade layers (`@layer`)?
-- How do layers help control specificity?
-- You have reset styles, base styles, component styles, and utility styles. How do layers help organize them?
-- What's the cascade order with layers?
-- Why would you want to explicitly control cascade order?
+- How does CSS affect page load performance?
+- What's the "critical CSS" concept?
+- How do unused CSS styles affect performance?
+- What's render blocking CSS?
+- How do you optimize CSS delivery?
 
-### CSS Organization
+### Modern CSS Features
 
-- How do you split CSS into multiple files?
-- What's the difference between one huge CSS file versus many small ones?
-- How do you organize CSS by component? By page? By type?
-- What is a CSS reset? What is normalization?
-- How do you structure your CSS folder/file system?
+- What are CSS Container Queries?
+- How do they differ from media queries?
+- What's the `:has()` selector?
+- What's CSS Cascade Layers?
 
-### Preprocessors and PostCSS
+### Build It: Design System
 
-- What is a CSS preprocessor (Sass, Less)?
-- What features do preprocessors add that CSS doesn't have natively?
-- What is PostCSS? How is it different from Sass?
-- What is autoprefixer? What problem does it solve?
-- Do you still need preprocessors now that CSS has variables?
-
-### CSS-in-JS
-
-- What is CSS-in-JS?
-- How is it different from external stylesheets?
-- What are the pros and cons of CSS-in-JS?
-- When would you choose CSS-in-JS over traditional CSS?
-- What is component-scoped CSS?
-
-### Build It: Design System with Architecture
-
-Create a scalable design system:
+Create a scalable design system with CSS:
 
 **Requirements:**
 
-1. **Choose and Implement Methodology**
+1. **CSS Architecture**
 
-   - Pick BEM, utility-first, or hybrid approach
-   - Document your naming conventions
-   - Create a style guide explaining the system
+   - Organized file structure
+   - Logical separation of concerns
+   - Reusable components
 
-2. **Design Tokens with CSS Variables**
+2. **Design Tokens (CSS Variables)**
 
-   - Define color palette (primary, secondary, neutrals)
-   - Define typography scale (font sizes, weights, line heights)
-   - Define spacing scale (4px, 8px, 16px, 24px, 32px, etc.)
-   - Define breakpoints
-   - Define shadows, border radii, etc.
-   - Store all tokens as CSS variables
+   - Color palette
+   - Typography scale
+   - Spacing scale
+   - Shadow styles
 
-3. **CSS Organization**
+3. **Component Library**
 
-   - Split into multiple files:
-     - `reset.css` - CSS reset/normalize
-     - `variables.css` - Design tokens
-     - `base.css` - Base element styles
-     - `layout.css` - Layout utilities
-     - `components.css` - Reusable components
-     - `utilities.css` - Utility classes
-   - Use `@import` or build tool to combine
+   - Buttons (primary, secondary, ghost)
+   - Cards
+   - Forms
+   - Navigation
+   - Modals/Dialogs
 
-4. **Cascade Layers**
+4. **Utility Classes**
 
-   - Implement `@layer` for organization:
-     - `@layer reset` - Reset styles
-     - `@layer base` - Base element styles
-     - `@layer components` - Component styles
-     - `@layer utilities` - Utility overrides
+   - Spacing utilities
+   - Typography utilities
+   - Color utilities
+   - Layout utilities
 
-5. **Component Library**
-
-   - Create reusable components:
-     - Buttons (primary, secondary, outlined, sizes)
-     - Cards (default, elevated, with image)
-     - Form inputs (text, email, select, etc.)
-     - Navigation (header, footer, sidebar)
-     - Alerts/notifications
-   - All components themeable with CSS variables
-
-6. **Theme System**
-
-   - Create light theme (default)
-   - Create dark theme
-   - Use CSS variables for theme switching
-   - Support prefers-color-scheme media query
-   - Implement theme toggle with JavaScript
-
-7. **Documentation**
-   - Document all components with examples
-   - Show all color tokens
-   - Show all spacing values
-   - Explain naming conventions
-   - Provide usage guidelines
-
-**Build Three Versions for Comparison:**
-
-**Version 1: BEM Methodology**
-
-```css
-.card {
-}
-.card__header {
-}
-.card__title {
-}
-.card--featured {
-}
-```
-
-**Version 2: Utility-First**
-
-```html
-<div class="bg-white p-4 rounded shadow"></div>
-```
-
-**Version 3: Hybrid Approach**
-
-```css
-/* Component classes for structure */
-.card {
-}
-/* Utility classes for variations */
-.mt-4 {
-}
-```
+5. **Documentation**
+   - Style guide page
+   - Component examples
+   - Usage guidelines
 
 **Experiment:**
 
-- Try scaling to 50+ components
-- Have multiple developers work simultaneously
-- Refactor from one methodology to another
-- Measure CSS file size of each approach
-- Compare developer experience
+- Change design tokens — see system update
+- Use BEM naming consistently
+- Measure CSS file size
+- Test reusability of components
 
 ### Reflection
 
 After building:
 
-- What are the trade-offs between BEM and utility-first approaches?
-- How do CSS variables make theming easier than Sass variables?
-- When does CSS architecture become necessary versus over-engineering?
-- How do cascade layers solve specificity problems?
+- How does organization improve maintainability?
+- Why are design systems important?
+- How do naming conventions prevent specificity wars?
+- What makes CSS scalable for large teams?
 
 ---
 
@@ -1321,85 +1044,85 @@ After building:
 
 ### Understanding JavaScript
 
-- What is JavaScript, and what problem does it solve?
-- What's the difference between HTML, CSS, and JavaScript? What does each one do?
-- Why do we need JavaScript? What can you do with JavaScript that you can't do with HTML/CSS?
-- Where does JavaScript run? (In the browser? On the server?)
-- What does "scripting language" mean?
-- Is JavaScript related to Java? (Spoiler: No, but why the similar name?)
+- What is JavaScript? What problems does it solve?
+- What's the difference between HTML, CSS, and JavaScript?
+- HTML structures content, CSS styles it — what does JavaScript do?
+- Why is it called "Java"Script? Is it related to Java?
+- Where does JavaScript run? (Browser? Server? Both?)
 
-### Your First JavaScript
+### Your First Program
 
 - How do you add JavaScript to an HTML page?
-- What's the difference between inline JavaScript (`<script>` in HTML) and external JavaScript (`.js` file)?
-- You add `<script>` at the top of `<head>`. Your code doesn't work. You move it to the bottom of `<body>`. Now it works. Why?
-- What does `console.log()` do? Where does the output appear?
-- How do you open the browser console to see JavaScript output?
+- What are the three ways to include JavaScript?
+- What's the difference between inline, internal, and external JavaScript?
+- Where should you put the `<script>` tag? Why does it matter?
+- What does `console.log()` do?
 
-### JavaScript Basics
+### The Console
 
-- What is a statement in JavaScript?
-- What does the semicolon (`;`) do? What happens if you forget it?
-- How do you write comments in JavaScript?
-- What is an error? What does "SyntaxError" mean?
-- You write `console.log("Hello")` and get an error. How do you read error messages?
+- What is the browser console?
+- How do you open the developer console?
+- What kinds of messages appear in the console?
+- Why is `console.log()` useful for debugging?
+- What's the difference between `console.log()`, `console.error()`, and `console.warn()`?
 
-### Making Things Happen
+### Basic Syntax
 
-- You want to show a popup message to the user. What does `alert()` do?
-- You want to ask the user a question and get their response. What does `prompt()` do?
-- You want the user to confirm something (OK or Cancel). What does `confirm()` do?
-- Why do people say not to use `alert()` in real websites?
+- What's the difference between `let`, `const`, and `var`?
+- Why do statements end with semicolons?
+- Are semicolons required? What happens without them?
+- What are comments? How do you write them?
+- What's the difference between `//` and `/* */` comments?
 
-### Build It: "Hello World" Interactive Page
+### Build It: Interactive Hello World
 
-Create your first interactive JavaScript program:
+Create your first JavaScript program:
 
 **Requirements:**
 
-1. **Set Up JavaScript**
+1. **Setup**
 
-   - Create an HTML file
-   - Add a `<script>` tag at the bottom of `<body>`
-   - Write `console.log("Hello World")`
-   - Open the page and check the browser console
+   - Create HTML file with a `<script>` tag
+   - Or link external JavaScript file
 
 2. **Console Output**
 
-   - Log different types of messages
-   - Log numbers, text, calculations
-   - Try logging multiple things at once
-   - Understand where output appears
+   - Log "Hello World" to console
+   - Log your name
+   - Log the current date/time
+   - Log multiple things in one line
 
-3. **User Interactions**
+3. **Variables**
 
-   - Use `alert()` to show a greeting message
-   - Use `prompt()` to ask the user their name
-   - Use `confirm()` to ask a yes/no question
-   - Log the responses to console
+   - Create variables with `let` and `const`
+   - Store your name, age, and favorite color
+   - Log the variables
 
-4. **Your First Program**
-   - Ask user for their name (prompt)
-   - Ask user for their age (prompt)
-   - Show a personalized greeting (alert)
-   - Log everything to console
+4. **Basic Interaction**
+
+   - Use `alert()` to show a message
+   - Use `prompt()` to ask for user's name
+   - Log the user's response
+
+5. **Comments**
+   - Add comments explaining what your code does
+   - Use both single-line and multi-line comments
 
 **Experiment:**
 
-- Forget the semicolon - what happens?
-- Make a typo in `console.log` - read the error message
-- Put `<script>` in `<head>` before `<body>` - what breaks?
-- Try logging math: `console.log(5 + 3)`
-- Try logging text + text: `console.log("Hello" + "World")`
+- What happens if you use a variable before declaring it?
+- Try changing a `const` variable — what error?
+- Remove all semicolons — does it still work?
+- Put `<script>` in different places — how does it affect execution?
 
 ### Reflection
 
 After building:
 
-- Why do we need JavaScript when HTML and CSS already make websites?
-- Where does JavaScript code run?
-- How do you debug JavaScript when something doesn't work?
-- Why is the console your best friend as a developer?
+- How does JavaScript make websites interactive?
+- Why have both `let` and `const`?
+- When is the console useful?
+- What's the best way to include JavaScript in a page?
 
 ---
 
@@ -1408,257 +1131,245 @@ After building:
 ### Understanding Variables
 
 - What is a variable? Why do we need them?
-- What does "variable" mean? (Hint: it comes from "varies" - can change)
-- How do you create a variable in JavaScript?
-- What's the difference between `var`, `let`, and `const`?
-- When should you use `let` versus `const`?
-- What happens if you try to change a `const` variable?
+- You want to store a user's name. How do you do it?
+- What's the difference between declaring and assigning a variable?
+- Can you declare a variable without assigning it a value?
+- What happens when you try to use an undeclared variable?
 
-### Declaring Variables
-
-- You write `let name;` What does this do?
-- You write `let name = "Alice";` What does the `=` mean?
-- Can you create a variable without giving it a value?
-- What does "declare" mean? What does "initialize" mean?
-- Can you declare multiple variables at once?
-
-### Variable Naming
+### Naming Variables
 
 - What are the rules for naming variables?
-- Can variable names have spaces?
-- Can they start with numbers?
-- What is camelCase? Why do JavaScript developers use it?
-- Which is better: `x` or `userName`? Why?
+- Can a variable name start with a number?
+- Should variable names be camelCase, snake_case, or PascalCase?
+- What makes a good variable name?
+- Can you use JavaScript keywords as variable names?
 
-### Understanding Data Types
+### Data Types
 
-- What is a data type?
-- What are the main data types in JavaScript?
-- What's the difference between a string and a number?
-- What is a boolean? What values can it have?
-- What is `null`? What is `undefined`? What's the difference?
+- What are the different data types in JavaScript?
+- What's the difference between primitive and reference types?
+- What are the primitive types? (string, number, boolean, null, undefined, symbol, bigint)
+- How do you check the type of a variable? (Hint: `typeof`)
 
-### Working with Strings
+### Strings
 
 - What is a string?
-- How do you create a string? (Single quotes? Double quotes?)
-- Can you add strings together? What does `"Hello" + "World"` give you?
-- How do you put quotes inside a string?
-- What are template literals? What do backticks do?
-- How do you put variables inside strings?
+- What's the difference between `"double quotes"`, `'single quotes'`, and `` `backticks` ``?
+- How do you include a quote inside a string?
+- How do you combine strings? (concatenation)
+- What's string interpolation with template literals?
 
-### Working with Numbers
+### Numbers
 
-- How do you create a number?
-- Can you do math in JavaScript?
-- What happens when you add, subtract, multiply, divide?
-- What is `%` (modulo)? What does it do?
+- How does JavaScript handle numbers?
+- What's the difference between integers and floats in JavaScript? (Trick question!)
+- How do you do basic math operations?
 - What happens when you divide by zero?
-- What is `NaN`? When do you see it?
+- What is `NaN`? How do you check for it?
 
-### Type Checking
+### Booleans
 
-- How do you check what type a variable is?
-- What does `typeof` do?
-- You type `typeof "hello"` - what do you get?
-- You type `typeof 42` - what do you get?
-- What's weird about `typeof null`?
+- What is a boolean?
+- What are the only two boolean values?
+- What's the difference between `true` and `"true"`?
+- How do you check if something is true or false?
 
-### Type Coercion
+### Null and Undefined
 
+- What's the difference between `null` and `undefined`?
+- When does a variable have value `undefined`?
+- When would you use `null`?
+- Are `null` and `undefined` equal? (Hint: `==` vs `===`)
+
+### Type Conversion
+
+- What's the difference between `"5"` and `5`?
+- What happens when you do `"5" + 5`?
+- What happens when you do `"5" - 5`?
+- How do you convert a string to a number?
+- How do you convert a number to a string?
 - What is type coercion?
-- You type `"5" + 3` - what do you get? Why?
-- You type `"5" - 3` - what do you get? Why?
-- Why does `+` behave differently than `-`?
-- What's the difference between `==` and `===`?
-- Why do people say to always use `===`?
 
-### Build It: Personal Information Form
+### Build It: Personal Information Program
 
-Create a program that works with variables and data types:
+Create a program that works with different data types:
 
 **Requirements:**
 
-1. **Variables Practice**
+1. **String Variables**
 
-   - Create variables with `let` for things that change
-   - Create variables with `const` for things that don't change
-   - Try to change a `const` - see what error you get
+   - Store name, favorite food, favorite quote
+   - Use string concatenation
+   - Use template literals
+   - Log formatted output
 
-2. **Different Data Types**
+2. **Number Variables**
 
-   - Create string variables (name, city, favorite food)
-   - Create number variables (age, year born, lucky number)
-   - Create boolean variables (isStudent, likesJavaScript)
-   - Create a variable with `null`
-   - Create a variable without a value (undefined)
+   - Store age, height (in cm), weight (in kg)
+   - Calculate BMI (weight / height² )
+   - Calculate age in months
+   - Log the results
 
-3. **Working with Strings**
+3. **Boolean Variables**
 
-   - Combine strings with `+`
-   - Use template literals with backticks
-   - Put variables inside template literals
-   - Create a full sentence using multiple variables
+   - Store isStudent, hasJob, canDrive
+   - Log the boolean values
+   - Use booleans in simple conditions
 
-4. **Working with Numbers**
+4. **Type Conversion**
 
-   - Do math with numbers (add, subtract, multiply, divide)
-   - Calculate age from birth year
-   - Use modulo to check if numbers are even or odd
-   - Calculate percentages
+   - Convert strings to numbers
+   - Convert numbers to strings
+   - Show the difference between `==` and `===`
+   - Demonstrate type coercion
 
-5. **Type Checking**
-
-   - Use `typeof` on all your variables
-   - Log the type of each variable to console
-   - Try doing math with strings - what happens?
-   - Try adding string + number - what happens?
-
-6. **Interactive Program**
-   - Ask user for their name (prompt)
-   - Ask for their age (prompt)
-   - Ask if they like JavaScript (confirm)
-   - Calculate their birth year
-   - Show a message with all their info
+5. **User Input**
+   - Use `prompt()` to get user input
+   - Convert string input to numbers
+   - Calculate something with the input
 
 **Experiment:**
 
-- Try changing a `const` variable - what error do you get?
-- Add a string and a number - what happens?
-- Subtract a string and a number - what happens?
-- Compare `"5" == 5` versus `"5" === 5`
-- Try doing math with `null`, `undefined`, `true`
+- What's `"5" + 5`? What's `"5" - 5`? Why different?
+- What's `true + true`? What's `true + false`?
+- Try `typeof null` — what does it return? Why is this weird?
+- What happens when you do math with `undefined`?
 
 ### Reflection
 
 After building:
 
-- Why do variables make programming powerful?
-- When should you use `const` versus `let`?
-- Why do we need different data types?
-- What problems does type coercion cause?
+- Why does JavaScript have different data types?
+- What problems can type coercion cause?
+- When should you use `===` instead of `==`?
+- How do you choose between `let` and `const`?
 
 ---
 
 ## Section 3: Making Decisions with Control Flow
 
-### Understanding Control Flow
+### Understanding Conditions
 
-- What does "control flow" mean?
-- Your program runs from top to bottom. How do you make it do different things based on conditions?
-- What is a condition? What is true/false logic?
+- What is control flow?
+- How do you make your program do different things based on conditions?
+- What is a condition? What makes it true or false?
 
 ### If Statements
 
 - What does an `if` statement do?
-- You write `if (age > 18)` - what does this check?
-- What goes inside the curly braces `{}`?
-- What happens if the condition is false?
-- Can you have code that runs only when the condition is false?
-
-### Else and Else If
-
-- What does `else` do?
-- How do you check multiple conditions with `else if`?
-- You're checking grades: A, B, C, D, F. How many `else if` do you need?
-- What's the difference between multiple separate `if`s and `else if`?
+- How do you write an if statement?
+- What goes inside the parentheses `()`? What goes inside the curly braces `{}`?
+- Can you have an `if` without an `else`?
+- What's the difference between `else if` and a separate `if`?
 
 ### Comparison Operators
 
-- How do you check if two things are equal?
-- What's the difference between `=`, `==`, and `===`?
+- What are the comparison operators? (`>`, `<`, `>=`, `<=`, `==`, `===`, `!=`, `!==`)
+- What's the difference between `==` and `===`?
+- Why is `===` considered safer?
 - How do you check if something is NOT equal?
-- How do you check if a number is greater than, less than?
-- What does `>=` and `<=` mean?
+- Can you compare strings? How does JavaScript compare them?
 
 ### Logical Operators
 
-- What does `&&` mean? (AND)
-- What does `||` mean? (OR)
-- What does `!` mean? (NOT)
-- You want to check if age is between 18 and 65. How do you write this?
-- You want to check if username OR password is wrong. How?
+- What are the logical operators? (`&&`, `||`, `!`)
+- What does `&&` (AND) do? When is it true?
+- What does `||` (OR) do? When is it true?
+- What does `!` (NOT) do?
+- How do you combine multiple conditions?
+- What's the difference between `||` and `&&` in terms of evaluation?
 
 ### Truthy and Falsy
 
 - What values are "falsy" in JavaScript?
-- What does `if (name)` check? Is it checking if name exists?
-- Why does `if (0)` not run but `if (1)` does?
-- What's the difference between `undefined`, `null`, `""`, and `0`?
+- What makes a value "truthy"?
+- Why does `if ("hello")` execute but `if ("")` doesn't?
+- Is `0` truthy or falsy? What about `"0"`?
+- How do you convert a value to boolean?
 
 ### Switch Statements
 
-- What is a switch statement? When do you use it?
-- How is switch different from multiple if/else if?
+- What is a switch statement?
+- When should you use `switch` instead of multiple `if/else`?
 - What does `break` do in a switch?
 - What happens if you forget `break`?
-- What is the `default` case?
+- When would you want fall-through behavior?
 
 ### Ternary Operator
 
-- What is the ternary operator (`? :`)?
-- How do you write an if/else in one line?
-- You write `age > 18 ? "Adult" : "Minor"` - what does this mean?
-- When is ternary more readable than if/else?
+- What is the ternary operator?
+- How is `condition ? true : false` different from `if/else`?
+- When should you use ternary instead of if/else?
+- Can you nest ternary operators? Should you?
 
-### Build It: Interactive Quiz Game
+### Build It: Interactive Quiz or Decision Tree
 
-Create a quiz that makes decisions based on user answers:
+Create a program that makes decisions based on user input:
 
 **Requirements:**
 
 1. **Basic If/Else**
 
-   - Ask user a question (prompt)
-   - Check if answer is correct (if statement)
-   - Show "Correct!" or "Wrong!" message
-   - Log result to console
+   - Ask user their age
+   - Respond differently based on age ranges
+   - Use `if`, `else if`, and `else`
 
-2. **Grade Calculator**
+2. **Comparison Practice**
 
-   - Ask user for a score (0-100)
-   - Use if/else if to assign letter grade:
-     - 90-100: A
-     - 80-89: B
-     - 70-79: C
-     - 60-69: D
-     - Below 60: F
-   - Show the grade to user
+   - Compare numbers
+   - Compare strings
+   - Use both `==` and `===`
+   - Show the difference
 
-3. **Login System**
+3. **Logical Operators**
 
-   - Ask for username
-   - Ask for password
-   - Check if BOTH are correct (&&)
-   - Show success or error message
-   - Count login attempts
+   - Check multiple conditions with `&&`
+   - Check alternative conditions with `||`
+   - Use `!` to negate conditions
 
-4. **Age Checker**
+4. **Switch Statement**
 
-   - Ask for age
-   - Check if age is valid (>= 0 AND <= 120)
-   - Check if person is child (<13), teen (13-17), adult (18-64), or senior (65+)
-   - Use nested if statements or else if
+   - Ask for day of the week
+   - Give different message for each day
+   - Use proper break statements
 
-5. **Menu System with Switch**
+5. **Ternary Operator**
 
-   - Show menu options: 1. Start Game, 2. Instructions, 3. Quit
-   - Use switch statement
-   - Handle each case differently
-   - Show message for invalid choice (default)
+   - Use ternary for simple true/false decisions
+   - Example: `const message = age >= 18 ? "Adult" : "Minor"`
 
-6. **Ternary Practice**
-   - Use ternary to set a variable based on condition
-   - Check if user is logged in: `const message = isLoggedIn ? "Welcome back!" : "Please log in"`
-   - Use ternary in template literal
+6. **Real Application**
+   - Create a simple quiz or decision tree
+   - Multiple questions
+   - Give final result based on answers
+   - Example: "What programming language should you learn?"
 
 **Experiment:**
 
-- Use `=` instead of `===` in a condition - what happens?
-- Forget the `break` in a switch case - see fall-through
-- Use `&&` vs using nested if statements
-- Chain multiple ternary operators - is it readable?
-- Check equality of different types: `"5" == 5` vs `"5" === 5`
+- Remove `break` from switch — see fall-through
+- Compare `5 == "5"` vs `5 === "5"`
+- Try `if (0)` vs `if ("0")` vs `if (false)`
+- Chain multiple logical operators
+- Use ternary inside template literal: `` `Welcome back ${isLoggedIn ? user : "Guest"}` ``
+
+**Example Quiz Structure:**
+
+```javascript
+// Ask 3-5 questions
+// Store answers
+// Use if/else to determine result
+// Example: "You should learn JavaScript!"
+```
+
+**Example Decision Tree:**
+
+```javascript
+// "Where should I eat?"
+// Ask: Do you want fast food? (yes/no)
+// Ask: What's your budget? (cheap/medium/expensive)
+// Ask: What cuisine? (italian/chinese/mexican)
+// Give recommendation based on answers
+```
 
 ### Reflection
 
@@ -1720,32 +1431,85 @@ After building:
 - You create a variable outside and use it inside a function. Does it work?
 - What happens if inner and outer variables have the same name?
 
-### Build It: Calculator and Utility Functions
+### Understanding Closures
 
-Create a collection of reusable functions:
+- What happens when a function "remembers" variables from its outer scope?
+- Why can inner functions access outer function variables?
+
+**Scenario: The Counter Mystery**
+
+```javascript
+function createCounter() {
+  let count = 0;
+  return function () {
+    count++;
+    return count;
+  };
+}
+
+const counter1 = createCounter();
+console.log(counter1()); // 1
+console.log(counter1()); // 2
+const counter2 = createCounter();
+console.log(counter2()); // 1
+```
+
+**Explore:**
+
+- Why does `count` keep increasing?
+- How does the inner function remember `count`?
+- Why is `count` not accessible from outside?
+- Why do `counter1` and `counter2` have separate counts?
+- What is a closure?
+
+**Scenario: The Loop Problem**
+
+```javascript
+// Problem: This doesn't work as expected
+for (var i = 0; i < 3; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, 100);
+}
+// Logs: 3, 3, 3 (not 0, 1, 2)
+
+// Why? How do you fix it?
+```
+
+**Explore:**
+
+- Why does it log 3 three times?
+- What's the value of `i` when the timeouts execute?
+- How would using `let` instead of `var` fix this?
+- How could you fix it using closures?
+- What's the difference in how `var` and `let` are scoped?
+
+### Build It: Function Toolkit & Closure Exercises
+
+Create a collection of reusable functions and explore closures:
 
 **Requirements:**
 
-1. **Basic Functions**
+**Part 1: Basic Functions**
 
-   - Create a function that adds two numbers
-   - Create a function that subtracts two numbers
-   - Create a function that multiplies two numbers
-   - Create a function that divides two numbers
+1. **Basic Math Functions**
+
+   - Create functions for add, subtract, multiply, divide
+   - Each takes two numbers and returns result
    - Call each function and log results
 
 2. **Functions with Parameters**
 
-   - Create `greet(name)` - takes name, returns greeting
-   - Create `calculateAge(birthYear)` - returns current age
-   - Create `isEven(number)` - returns true if even
-   - Create `max(a, b)` - returns the larger number
+   - `greet(name)` - takes name, returns greeting
+   - `calculateAge(birthYear)` - returns current age
+   - `isEven(number)` - returns true if even
+   - `max(a, b)` - returns the larger number
 
 3. **Functions that Return Values**
 
-   - Create `calculateTax(amount, rate)` - returns tax amount
-   - Create `calculateTotal(price, quantity)` - returns total
-   - Create `getGrade(score)` - returns letter grade
+   - `calculateTax(amount, rate)` - returns tax amount
+   - `calculateTotal(price, quantity)` - returns total
+   - `getGrade(score)` - returns letter grade
    - Use return values in other calculations
 
 4. **Arrow Functions**
@@ -1766,6 +1530,65 @@ Create a collection of reusable functions:
    - Call appropriate function
    - Show result
 
+**Part 2: Closure Exercises**
+
+1. **Create a Counter**
+
+   ```javascript
+   function createCounter() {
+     // Your code here
+     // Return functions: increment(), decrement(), getCount()
+   }
+
+   const counter = createCounter();
+   counter.increment(); // count is now 1
+   counter.increment(); // count is now 2
+   console.log(counter.getCount()); // 2
+   counter.decrement(); // count is now 1
+   ```
+
+2. **Create a Secret Keeper**
+
+   ```javascript
+   function createSecret(secret) {
+     // Your code here
+     // Return functions: getSecret(password), changeSecret(newSecret, password)
+   }
+
+   const mySecret = createSecret("my password is 1234");
+   mySecret.getSecret("wrong"); // "Access denied"
+   mySecret.getSecret("password"); // "my password is 1234"
+   ```
+
+3. **Create a Bank Account**
+
+   ```javascript
+   function createBankAccount(initialBalance) {
+     // Your code here
+     // Return functions: deposit(amount), withdraw(amount), getBalance()
+     // Balance should be private (not accessible from outside)
+   }
+
+   const account = createBankAccount(100);
+   account.deposit(50); // balance is now 150
+   account.withdraw(30); // balance is now 120
+   console.log(account.getBalance()); // 120
+   // account.balance should be undefined (private)
+   ```
+
+4. **Create a Personal Greeter**
+
+   ```javascript
+   function createGreeter(name) {
+     // Your code here
+     // Return a function that remembers the name
+   }
+
+   const greetJohn = createGreeter("John");
+   greetJohn("morning"); // "Good morning, John!"
+   greetJohn("evening"); // "Good evening, John!"
+   ```
+
 **Experiment:**
 
 - Call a function before declaring it - what happens?
@@ -1773,6 +1596,9 @@ Create a collection of reusable functions:
 - Access a local variable from outside the function
 - Create a function without return - what does it return?
 - Arrow function with multiple statements - need curly braces?
+- Try to access `count` from outside `createCounter` - what happens?
+- Create multiple counters - do they share the same count?
+- Change `var` to `let` in the loop problem - does it fix it?
 
 ### Reflection
 
@@ -1782,6 +1608,9 @@ After building:
 - Why is it important to return values rather than just console.log?
 - When should you use arrow functions versus regular functions?
 - How does scope protect variables?
+- What is a closure and why is it useful?
+- How do closures enable private variables?
+- When does a closure get created?
 
 ---
 
@@ -1839,11 +1668,276 @@ After building:
 - You have an array of user objects. How do you access the first user's name?
 - Why is this pattern so common?
 
-### Build It: Student Management System
+### Looping Through Arrays
 
-Create a program that manages student data:
+**Basic Loops:**
+
+- How do you loop through every item in an array?
+- What does a `for` loop look like for arrays?
+- What's the difference between `for` and `while` loops?
+
+**Understanding Array Methods:**
+
+Now we'll learn modern, cleaner ways to work with arrays.
+
+#### forEach - Visiting Each Item
+
+- What does `forEach` do?
+- How is it different from a `for` loop?
+- When should you use `forEach`?
+
+**Explore:**
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+// Old way with for loop
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+
+// Modern way with forEach
+numbers.forEach(function (number) {
+  console.log(number);
+});
+
+// Even cleaner with arrow function
+numbers.forEach((number) => console.log(number));
+```
+
+- What does the callback function receive?
+- Can you access the index in forEach?
+- Does forEach return anything?
+
+#### map - Transforming Every Item
+
+- What does `map` do?
+- You have an array of numbers and want to double each one. How?
+- What does map return?
+
+**Scenario: Converting Data**
+
+```javascript
+const prices = [10, 20, 30, 40];
+
+// You want to add tax (10%) to each price
+// Old way with for loop
+const withTax = [];
+for (let i = 0; i < prices.length; i++) {
+  withTax.push(prices[i] * 1.1);
+}
+
+// Modern way with map
+const withTax = prices.map((price) => price * 1.1);
+```
+
+**Explore:**
+
+- What does the callback function receive?
+- What does the callback function return?
+- What does `map` itself return?
+- Does `map` modify the original array?
+- Why is `map` cleaner than a for loop?
+
+**More Examples:**
+
+```javascript
+const names = ["alice", "bob", "charlie"];
+// How do you uppercase all names?
+
+const numbers = [1, 2, 3, 4, 5];
+// How do you create an array of squares?
+
+const users = [
+  {name: "Alice", age: 25},
+  {name: "Bob", age: 30},
+];
+// How do you get just the names?
+```
+
+#### filter - Keeping Only Some Items
+
+- What does `filter` do?
+- You have an array of numbers and want only the even ones. How?
+- What does filter return?
+
+**Scenario: Finding Matches**
+
+```javascript
+const ages = [12, 18, 25, 16, 30, 14];
+
+// You want only adults (18+)
+// Old way with for loop
+const adults = [];
+for (let i = 0; i < ages.length; i++) {
+  if (ages[i] >= 18) {
+    adults.push(ages[i]);
+  }
+}
+
+// Modern way with filter
+const adults = ages.filter((age) => age >= 18);
+```
+
+**Explore:**
+
+- What does the callback function return?
+- What happens if no items match?
+- Does `filter` modify the original array?
+- Can you filter objects based on their properties?
+
+**More Examples:**
+
+```javascript
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// How do you get only odd numbers?
+
+const words = ["hello", "hi", "goodbye", "hey"];
+// How do you get words longer than 3 characters?
+
+const users = [
+  {name: "Alice", active: true},
+  {name: "Bob", active: false},
+  {name: "Charlie", active: true},
+];
+// How do you get only active users?
+```
+
+#### find - Finding One Item
+
+- What does `find` do?
+- How is it different from `filter`?
+- What happens if multiple items match?
+- What happens if no items match?
+
+**Scenario: Looking Up Data**
+
+```javascript
+const users = [
+  {id: 1, name: "Alice"},
+  {id: 2, name: "Bob"},
+  {id: 3, name: "Charlie"},
+];
+
+// Find user with id 2
+const user = users.find((u) => u.id === 2);
+console.log(user); // { id: 2, name: "Bob" }
+
+// Find user that doesn't exist
+const missing = users.find((u) => u.id === 999);
+console.log(missing); // undefined
+```
+
+**Explore:**
+
+- When should you use `find` vs `filter`?
+- How do you check if find found something?
+- What's `findIndex` and how is it different?
+
+#### reduce - Accumulating a Result
+
+- What does `reduce` do?
+- Why is it called "reduce"?
+- What's an accumulator?
+
+**Scenario: Calculating Totals**
+
+```javascript
+const prices = [10, 20, 30, 40];
+
+// Calculate total
+// Old way with for loop
+let total = 0;
+for (let i = 0; i < prices.length; i++) {
+  total += prices[i];
+}
+
+// Modern way with reduce
+const total = prices.reduce((sum, price) => sum + price, 0);
+```
+
+**Explore:**
+
+- What are the two parameters to the callback? (accumulator, current value)
+- What's the second argument to reduce? (initial value)
+- What does reduce return?
+- What happens if you don't provide an initial value?
+
+**More Examples:**
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+// How do you multiply all numbers together?
+
+const words = ["Hello", " ", "World"];
+// How do you combine them into one string?
+
+const items = [
+  {name: "Apple", price: 1},
+  {name: "Banana", price: 2},
+];
+// How do you calculate total price?
+```
+
+#### some & every - Testing Conditions
+
+- What does `some` do? What does `every` do?
+- How are they different?
+
+**Scenario: Checking Conditions**
+
+```javascript
+const ages = [12, 16, 18, 25, 30];
+
+// Are there any adults?
+const hasAdults = ages.some((age) => age >= 18); // true
+
+// Are all of them adults?
+const allAdults = ages.every((age) => age >= 18); // false
+```
+
+**Explore:**
+
+- What does the callback return?
+- What do `some` and `every` themselves return?
+- When does `some` stop checking?
+- When does `every` stop checking?
+
+#### Chaining Array Methods
+
+**Scenario: Complex Data Processing**
+
+```javascript
+const users = [
+  {name: "Alice", age: 25, active: true},
+  {name: "Bob", age: 17, active: false},
+  {name: "Charlie", age: 30, active: true},
+  {name: "Diana", age: 22, active: true},
+];
+
+// Get names of active adults, in uppercase
+const result = users
+  .filter((user) => user.active) // Only active users
+  .filter((user) => user.age >= 18) // Only adults
+  .map((user) => user.name.toUpperCase()); // Get names in uppercase
+
+console.log(result); // ["ALICE", "CHARLIE", "DIANA"]
+```
+
+**Explore:**
+
+- How does chaining work?
+- What does each method return?
+- Can you chain in any order?
+- Which order is most efficient?
+
+### Build It: Data Processing Application
+
+Create a program that works with arrays and objects:
 
 **Requirements:**
+
+**Part 1: Basic Arrays and Objects**
 
 1. **Single Student Object**
 
@@ -1866,27 +1960,138 @@ Create a program that manages student data:
    - Add a new student to the array
    - Remove a student from the array
    - Count how many students there are
-   - Find a student by name (loop through array)
+   - Find a student by name (using find method)
 
-4. **Nested Data**
+**Part 2: Array Methods Practice**
 
-   - Each student has an array of grades
-   - Access specific grades
-   - Add a new grade to a student
-   - Calculate average grade for a student
+1. **forEach Practice**
 
-5. **Interactive Features**
-   - Ask user for student name
-   - Search array for that student
-   - Display student information
-   - Allow user to add new students
+   - Loop through all students and log their names
+   - Loop through and log "Name: Age"
+   - Loop through and do something with each student
+
+2. **map Practice**
+
+   ```javascript
+   // Create array of just student names
+   const names = students.map((student) => student.name);
+
+   // Create array with formatted strings
+   const formatted = students.map(
+     (student) => `${student.name} (${student.age})`
+   );
+
+   // Give everyone a 5-point grade boost
+   const boosted = students.map((student) => ({
+     ...student,
+     grade: student.grade + 5,
+   }));
+   ```
+
+3. **filter Practice**
+
+   ```javascript
+   // Get only students with grade >= 80
+   const topStudents = students.filter((student) => student.grade >= 80);
+
+   // Get only students older than 18
+   const adults = students.filter((student) => student.age > 18);
+
+   // Get students whose name starts with 'A'
+   const aNames = students.filter((student) => student.name.startsWith("A"));
+   ```
+
+4. **find Practice**
+
+   ```javascript
+   // Find student with specific name
+   const alice = students.find((student) => student.name === "Alice");
+
+   // Find first student with grade > 90
+   const topStudent = students.find((student) => student.grade > 90);
+
+   // Find student by ID (if you add id property)
+   const student = students.find((s) => s.id === 3);
+   ```
+
+5. **reduce Practice**
+
+   ```javascript
+   // Calculate average grade
+   const total = students.reduce((sum, student) => sum + student.grade, 0);
+   const average = total / students.length;
+
+   // Find highest grade
+   const highest = students.reduce(
+     (max, student) => (student.grade > max ? student.grade : max),
+     0
+   );
+
+   // Count students by age group
+   const ageGroups = students.reduce((groups, student) => {
+     const group = student.age < 18 ? "minor" : "adult";
+     groups[group] = (groups[group] || 0) + 1;
+     return groups;
+   }, {});
+   ```
+
+6. **some & every Practice**
+
+   ```javascript
+   // Are any students failing (grade < 60)?
+   const hasFailing = students.some((student) => student.grade < 60);
+
+   // Are all students passing (grade >= 60)?
+   const allPassing = students.every((student) => student.grade >= 60);
+
+   // Are all students adults?
+   const allAdults = students.every((student) => student.age >= 18);
+   ```
+
+7. **Chaining Practice**
+
+   ```javascript
+   // Get names of passing students (grade >= 60), sorted
+   const passingNames = students
+     .filter((student) => student.grade >= 60)
+     .map((student) => student.name)
+     .sort();
+
+   // Get average grade of adult students
+   const adultAverage =
+     students
+       .filter((student) => student.age >= 18)
+       .reduce((sum, student) => sum + student.grade, 0) /
+     students.filter((student) => student.age >= 18).length;
+   ```
+
+**Part 3: Real Application**
+
+Build a **Student Management System** that can:
+
+1. Display all students
+2. Filter students by:
+   - Grade range (A, B, C, etc.)
+   - Age group (minors, adults)
+   - Passing/failing status
+3. Calculate statistics:
+   - Average grade
+   - Highest/lowest grade
+   - Number of passing students
+4. Transform data:
+   - Get list of all names
+   - Format student data for display
+   - Sort students by name or grade
 
 **Experiment:**
 
 - Try accessing `students[100]` - what happens?
 - Try accessing `student.nonexistent` - what happens?
-- Put functions inside objects (methods)
-- Create objects inside arrays inside objects (deep nesting)
+- What happens if you `map` over an empty array?
+- What happens if `filter` finds no matches?
+- What happens if `find` finds nothing?
+- Try `reduce` without an initial value - what happens?
+- Chain many methods together - what happens to performance?
 - Use bracket notation with variables: `student[propertyName]`
 
 ### Reflection
@@ -1897,6 +2102,10 @@ After building:
 - Why are arrays better than numbered variables (user1, user2, user3)?
 - When do you use objects versus arrays?
 - How do you organize complex data structures?
+- Why are array methods like `map` and `filter` cleaner than for loops?
+- When should you use `forEach` vs `map` vs `filter`?
+- How does method chaining make code more readable?
+- What's the most useful array method you learned?
 
 ---
 
@@ -2318,8 +2527,9 @@ You've completed the **HTML-CSS-JavaScript Self-Mastery Workbook**!
 ✅ Understanding what JavaScript is and where it runs  
 ✅ Variables, data types, and type coercion  
 ✅ Control flow and decision making  
-✅ Functions and code organization  
+✅ Functions, closures, and code organization  
 ✅ Objects and arrays for data storage  
+✅ **Array methods (map, filter, reduce, forEach, find, some, every)**  
 ✅ Asynchronous programming  
 ✅ DOM manipulation and interactivity  
 ✅ Modern ES6+ features
@@ -2328,8 +2538,12 @@ You've completed the **HTML-CSS-JavaScript Self-Mastery Workbook**!
 
 After this workbook, you can:
 
-- ✅ Understand HTML, CSS, and JavaScript
-- ✅ Debug HTML, CSS, and JavaScript issues
+- ✅ Build complete, interactive websites from scratch
+- ✅ Understand and debug HTML, CSS, and JavaScript
+- ✅ Work with modern JavaScript features and patterns
+- ✅ **Process and transform data with array methods**
+- ✅ **Create private state with closures**
+- ✅ Make responsive, accessible websites
 
 ### What's Next?
 
@@ -2337,11 +2551,13 @@ After this workbook, you can:
 
 Continue to **"Advanced JavaScript Self-Mastery Workbook"** to master:
 
-- Closures and advanced scope
+- Deep closures and scope chains
 - Prototypes and inheritance
 - Advanced async patterns
 - Memory management
 - Design patterns
+
+**You're now fully prepared for this workbook!** You have all the prerequisite knowledge including array methods and closures.
 
 #### Option 2: Framework Foundations
 
