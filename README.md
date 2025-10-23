@@ -29,19 +29,19 @@ By the time you complete a workbook, you won't just "know" the topic - you'll un
 
 Follow this path to build production-ready full-stack applications with React and Next.js:
 
-1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
+1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./fundamentals/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
 
    - Master the foundational technologies of the web
    - Build semantic, accessible, and responsive interfaces
    - Develop strong JavaScript fundamentals
 
-2. **[Development Environment & Servers Mastery Workbook](./markdown/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)**
+2. **[Development Environment & Servers Mastery Workbook](./fundamentals/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)**
 
    - Learn to work efficiently with the terminal and development tools
    - Understand version control with Git
    - Master Node.js, servers, and deployment
 
-3. **[Advanced JavaScript Self-Mastery Workbook](./markdown/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
+3. **[Advanced JavaScript Self-Mastery Workbook](./advanced/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
 
    - Deep dive into advanced functions, closures, and `this` keyword
    - Prototypes, classes, and object-oriented patterns
@@ -49,7 +49,7 @@ Follow this path to build production-ready full-stack applications with React an
    - Event loop, modules, and metaprogramming
    - Design patterns and scalable application architecture
 
-4. **[JavaScript Framework Foundations Self-Mastery Workbook](./markdown/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)**
+4. **[JavaScript Framework Foundations Self-Mastery Workbook](./advanced/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)**
 
    - Universal patterns that ALL frameworks use
    - Component architecture, routing, and state management
@@ -58,7 +58,7 @@ Follow this path to build production-ready full-stack applications with React an
    - Build tools, testing, and production deployment
    - Framework-independent knowledge for mastering any framework
 
-5. **[ReactJS Self-Mastery Workbook](./markdown/ReactJS%20Self-Mastery%20Workbook.md)**
+5. **[ReactJS Self-Mastery Workbook](./web%20frameworks/ReactJS%20Self-Mastery%20Workbook.md)**
 
    - React internals, Virtual DOM, and reconciliation
    - React Fiber architecture and concurrent rendering
@@ -67,7 +67,7 @@ Follow this path to build production-ready full-stack applications with React an
    - Testing, debugging, and production patterns
    - Building React from scratch
 
-6. **[Next.js Self-Mastery Workbook](./markdown/NextJS%20Self-Mastery%20Workbook.md)**
+6. **[Next.js Self-Mastery Workbook](./web%20frameworks/NextJS%20Self-Mastery%20Workbook.md)**
    - Next.js App Router and Server Components
    - Data fetching, caching, and revalidation strategies
    - Server Actions and full-stack features
@@ -79,19 +79,19 @@ Follow this path to build production-ready full-stack applications with React an
 
 Follow this path to build production-ready full-stack applications with Svelte and SvelteKit:
 
-1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
+1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./fundamentals/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
 
    - Master the foundational technologies of the web
    - Build semantic, accessible, and responsive interfaces
    - Develop strong JavaScript fundamentals
 
-2. **[Development Environment & Servers Mastery Workbook](./markdown/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)**
+2. **[Development Environment & Servers Mastery Workbook](./fundamentals/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)**
 
    - Learn to work efficiently with the terminal and development tools
    - Understand version control with Git
    - Master Node.js, servers, and deployment
 
-3. **[Advanced JavaScript Self-Mastery Workbook](./markdown/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
+3. **[Advanced JavaScript Self-Mastery Workbook](./advanced/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
 
    - Deep dive into advanced functions, closures, and `this` keyword
    - Prototypes, classes, and object-oriented patterns
@@ -99,7 +99,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
    - Event loop, modules, and metaprogramming
    - Design patterns and scalable application architecture
 
-4. **[JavaScript Framework Foundations Self-Mastery Workbook](./markdown/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)**
+4. **[JavaScript Framework Foundations Self-Mastery Workbook](./advanced/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)**
 
    - Universal patterns that ALL frameworks use
    - Component architecture, routing, and state management
@@ -108,7 +108,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
    - Build tools, testing, and production deployment
    - Framework-independent knowledge for mastering any framework
 
-5. **[Svelte Self-Mastery Workbook](./markdown/Svelte%20Self-Mastery%20Workbook.md)**
+5. **[Svelte Self-Mastery Workbook](./web%20frameworks/Svelte%20Self-Mastery%20Workbook.md)**
 
    - Svelte compiler architecture and reactivity system
    - Component patterns, slots, and context API
@@ -117,7 +117,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
    - Performance optimization and compilation analysis
    - Building Svelte from scratch
 
-6. **[SvelteKit Self-Mastery Workbook](./markdown/Sveltekit%20Self-Mastery%20Workbook.md)**
+6. **[SvelteKit Self-Mastery Workbook](./web%20frameworks/Sveltekit%20Self-Mastery%20Workbook.md)**
    - SvelteKit architecture and file-based routing
    - Load functions, data flow, and form actions
    - Server-side rendering and progressive enhancement
@@ -131,13 +131,13 @@ Follow this path to build production-ready full-stack applications with Svelte a
 
 ### Web Development
 
-- [The HTML-CSS-JavaScript Self-Mastery Workbook](./markdown/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)
+- [The HTML-CSS-JavaScript Self-Mastery Workbook](./fundamentals/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)
 
   - HTML: Structure, semantics, accessibility
   - CSS: Styling, layout, responsive design, architecture
   - JavaScript: Fundamentals, DOM, async programming, advanced concepts
 
-- [The Development Environment & Servers Mastery Workbook](./markdown/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)
+- [The Development Environment & Servers Mastery Workbook](./fundamentals/The%20DE%20and%20Servers%20Self-Mastery%20Workbook.md)
 
   - Terminal mastery and professional workspace setup
   - Version control with Git (Windows & macOS)
@@ -146,7 +146,23 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Understanding servers and deployment
   - Persistence, monitoring, and maintenance
 
-- [Advanced JavaScript Self-Mastery Workbook](./markdown/Advanced%20Javascript%20Self-Mastery%20Workbook.md)
+- [The C Programming Self-Mastery Workbook](./fundamentals/The%20C%20Programming%20Self-Mastery%20Workbook.md)
+
+  - C fundamentals, syntax, and compilation process
+  - Memory management and pointers
+  - Data structures and algorithms in C
+  - File I/O and system programming
+  - Building systems-level applications
+
+- [The PHP Fundamentals Self-Mastery Workbook](./fundamentals/The%20PHP%20Fundamentals%20Self-Mastery%20Workbook.md)
+
+  - PHP syntax, variables, and control structures
+  - Object-oriented programming in PHP
+  - Working with databases and MySQL
+  - Web application development with PHP
+  - Security best practices and modern PHP
+
+- [Advanced JavaScript Self-Mastery Workbook](./advanced/Advanced%20Javascript%20Self-Mastery%20Workbook.md)
 
   - Advanced functions, closures, and higher-order functions
   - The `this` keyword, execution context, and binding
@@ -159,7 +175,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Error handling, debugging, and memory management
   - Design patterns and building scalable applications
 
-- [JavaScript Framework Foundations Self-Mastery Workbook](./markdown/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)
+- [JavaScript Framework Foundations Self-Mastery Workbook](./advanced/Javascript%20Frameworks%20Foundation%20Self-Mastery%20Workbook.md)
 
   - Framework paradigms and evaluation criteria
   - Component architecture, lifecycle, and communication patterns
@@ -175,7 +191,15 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Security (XSS prevention), testing, and accessibility
   - Framework-independent patterns for mastering React, Vue, Svelte, or any framework
 
-- [ReactJS Self-Mastery Workbook](./markdown/ReactJS%20Self-Mastery%20Workbook.md)
+- [WebAssembly using C Self-Mastery Workbook](./advanced/WebAssembly%20using%20C%20Self-Mastery%20Workbook.md)
+
+  - WebAssembly fundamentals and architecture
+  - Compiling C to WebAssembly with Emscripten
+  - JavaScript and WebAssembly interoperability
+  - Memory management and performance optimization
+  - Building high-performance web applications
+
+- [ReactJS Self-Mastery Workbook](./web%20frameworks/ReactJS%20Self-Mastery%20Workbook.md)
 
   - React core concepts and JSX deep dive
   - Virtual DOM, reconciliation, and React Fiber architecture
@@ -189,7 +213,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Custom renderers and React everywhere
   - Building React from scratch
 
-- [Svelte Self-Mastery Workbook](./markdown/Svelte%20Self-Mastery%20Workbook.md)
+- [Svelte Self-Mastery Workbook](./web%20frameworks/Svelte%20Self-Mastery%20Workbook.md)
 
   - Svelte compiler architecture and reactivity system internals
   - Component architecture and reactive declarations
@@ -203,7 +227,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Custom preprocessors and compiler modifications
   - Building Svelte from scratch
 
-- [Next.js Self-Mastery Workbook](./markdown/NextJS%20Self-Mastery%20Workbook.md)
+- [Next.js Self-Mastery Workbook](./web%20frameworks/NextJS%20Self-Mastery%20Workbook.md)
 
   - Next.js architecture and App Router deep dive
   - Server Components and Client Components optimization
@@ -217,7 +241,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - SEO, metadata, and deployment strategies
   - Testing, monitoring, and production best practices
 
-- [SvelteKit Self-Mastery Workbook](./markdown/Sveltekit%20Self-Mastery%20Workbook.md)
+- [SvelteKit Self-Mastery Workbook](./web%20frameworks/Sveltekit%20Self-Mastery%20Workbook.md)
   - SvelteKit architecture and file-based routing
   - Load functions and data flow patterns
   - Form actions and progressive enhancement
@@ -232,7 +256,7 @@ Follow this path to build production-ready full-stack applications with Svelte a
 
 ### Machine Learning & Data Science
 
-- [The Machine Learning Implementation Mastery Workbook](./markdown/Machine%20Learning%20Fundamentals%20Self-Mastery%20Workbook.md)
+- [The Machine Learning Implementation Mastery Workbook](./fundamentals/Machine%20Learning%20Fundamentals%20Self-Mastery%20Workbook.md)
   - Machine Learning fundamentals and workflow
   - Python for ML (NumPy, pandas, Matplotlib)
   - Data processing and feature engineering
