@@ -125,6 +125,40 @@ Follow this path to build production-ready full-stack applications with Svelte a
    - Performance optimization, SEO, and deployment strategies
    - Building enterprise-grade production applications
 
+### Flow 3: WordPress Development Path
+
+Follow this path to build professional WordPress themes, plugins, and modern headless WordPress applications:
+
+1. **[HTML-CSS-JavaScript Self-Mastery Workbook](./fundamentals/The%20HTML-CSS-JavaScript%20Self-Mastery%20Workbook.md)**
+
+   - Master the foundational technologies of the web
+   - Build semantic, accessible, and responsive interfaces
+   - Develop strong JavaScript fundamentals
+
+2. **[Advanced JavaScript Self-Mastery Workbook](./advanced/Advanced%20Javascript%20Self-Mastery%20Workbook.md)**
+
+   - Deep dive into advanced functions, closures, and `this` keyword
+   - Prototypes, classes, and object-oriented patterns
+   - Functional programming and advanced async patterns
+   - Event loop, modules, and metaprogramming
+   - Design patterns and scalable application architecture
+
+3. **[The PHP Fundamentals Self-Mastery Workbook](./fundamentals/The%20PHP%20Fundamentals%20Self-Mastery%20Workbook.md)**
+
+   - PHP syntax, variables, and control structures
+   - Object-oriented programming in PHP
+   - Working with databases and MySQL
+   - Web application development with PHP
+   - Security best practices and modern PHP
+
+4. **[The Wordpress Self-Mastery Workbook](./specializations/The%20Wordpress%20Self-Mastery%20Workbook.md)**
+   - WordPress architecture and core concepts
+   - Theme development and template hierarchy
+   - Plugin development and WordPress hooks
+   - Modern WordPress with Gutenberg and blocks
+   - REST API and headless WordPress
+   - Security, performance, and production best practices
+
 ---
 
 ## All Available Workbooks
@@ -199,6 +233,15 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Memory management and performance optimization
   - Building high-performance web applications
 
+- [Advanced PHP & Modern Development Self-Mastery Workbook](./advanced/Advanced%20PHP%20&%20Modern%20Development%20Self-Mastery%20Workbook.md)
+
+  - SOLID principles and design patterns in PHP
+  - Modern PHP ecosystem (Composer, PSR standards, PHP 8+)
+  - Unit testing, TDD, and quality assurance
+  - Performance optimization and async PHP
+  - Architectural patterns (DDD, event-driven, microservices)
+  - Framework internals and building scalable applications
+
 - [ReactJS Self-Mastery Workbook](./web%20frameworks/ReactJS%20Self-Mastery%20Workbook.md)
 
   - React core concepts and JSX deep dive
@@ -265,6 +308,18 @@ Follow this path to build production-ready full-stack applications with Svelte a
   - Computer Vision with OpenCV
   - Real-world applications (face recognition, predictive analytics)
   - Model deployment and production ML
+
+### Specializations
+
+- [The Wordpress Self-Mastery Workbook](./specializations/The%20Wordpress%20Self-Mastery%20Workbook.md)
+  - WordPress architecture, database schema, and core concepts
+  - Theme development and template hierarchy
+  - Plugin development with hooks, actions, and filters
+  - Modern WordPress (Gutenberg blocks and Full Site Editing)
+  - WordPress REST API, custom endpoints, and authentication
+  - Headless WordPress with React/Next.js and GraphQL
+  - Security best practices and performance optimization
+  - Building production-ready WordPress applications
 
 ---
 
